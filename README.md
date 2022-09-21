@@ -1,4 +1,4 @@
-# Session ID - Session Title
+# AD280 - A Beginning to End Workshop on Configuring SAP Launchpad Service
 
 ## Description
 
