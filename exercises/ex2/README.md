@@ -1,6 +1,7 @@
-# Exercise 2 - Exercise 2 Description
+# Exercise 2.3 - Create an SAP Fiori App Using SAP Business Application Studio
 
-In this exercise, we will create...
+In this exercise, you will develop a simple SAPUI5 freestyle application, adhering to SAP Fiori design guidelines. The app shall present a list of suppliers from an on-premise backend, but in this first step, only an empty app with a connection to a backend system will be created. If time permits, feel free to do also the optional exercise 2.4 where you will learn how to enhance your app to display supplier information.
+
 
 ## Exercise 2.1 Sub Exercise 1 Description
 
