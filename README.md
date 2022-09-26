@@ -16,9 +16,9 @@ This exercise is run in an SAP BTP trial environment. You need to first register
 
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
 
-Before getting started with the exercises, please take a look at the following [general overview of SAP Build Work Zone, standard edition](intro/overview.md).
+Before getting started with the exercises, please take a look at the following [general overview of SAP Build Work Zone, standard edition](exercises/overview.md).
 
-In the first part of this SAP TechEd workshop, you will create your first site. Before you can do this, you first need to create a subscription to the service on the SAP Business Technology Platform cockpit and assign the administrator role to your user. You will then enter the administration environment to create your first site and add an application to the site. To make the application visible on the site, you will assign it to a group and to a role. Please check the [introduction into the admin environment and the content structure](intro/admin.md) for more details.
+In the first part of this SAP TechEd workshop, you will create your first site. Before you can do this, you first need to create a subscription to the service on the SAP Business Technology Platform cockpit and assign the administrator role to your user. You will then enter the administration environment to create your first site and add an application to the site. To make the application visible on the site, you will assign it to a group and to a role. Please check the [introduction into the admin environment and the content structure](exercises/admin.md) for more details.
 
 - [Exercise 0 - Set up SAP Launchpad service in your trial account](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-getting-started.html)
 - Exercise 1 - Create your first launchpad site with a URL app
@@ -26,7 +26,7 @@ In the first part of this SAP TechEd workshop, you will create your first site. 
     - [Exercise 1.2 - Add an application to your site](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-new-sapui5.html)
 
 
-The next part of the SAP TechEd workshop is not an exercise for participants, but just a demo, as it requires an SAP S/4HANA system to be available to participants that is connected to the BTP trial subaccount using the SAP Cloud Connector and a destination in SAP BTP and configured for content federation. This goes beyond the scope of this workshop. Instead the content federation and consumption is shown as a demo. Learn more about [content federation](intro/federation.md).
+The next part of the SAP TechEd workshop is not an exercise for participants, but just a demo, as it requires an SAP S/4HANA system to be available to participants that is connected to the BTP trial subaccount using the SAP Cloud Connector and a destination in SAP BTP and configured for content federation. This goes beyond the scope of this workshop. Instead the content federation and consumption is shown as a demo. Learn more about [content federation](exercises/federation.md).
 
 Attendees who would like to run this exercise **after the TechEd workshop**, would need to have administrator access to an SAP S/4HANA 2020 system or higher available, e.g. using an [SAP S/4 HANA Fully Activated Appliance 30-day trial system](https://www.sap.com/products/erp/s4hana/trial.html) from the SAP Cloud Appliance Library. See this [Quick Start Guide](https://www.sap.com/documents/2019/04/4276422b-487d-0010-87a3-c30de2ffd8ff.html#page=1) for more information. Please follow the instructions in this [Enhance Your SAP Launchpad Site with Federated SAP S/4HANA Content tutorial](https://developers.sap.com/mission.launchpad-s4hana.html), but note that not all parts of this tutorial are shown in the demo at the TechEd workshop.
 
