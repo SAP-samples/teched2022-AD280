@@ -7,13 +7,13 @@ When integrating content from different cloud and on-premise solutions into a ce
 
 While SAP Build Work Zone takes care of rendering the site with its content, the roles-based access and the navigation from app to app, other services from the SAP Business Technolgy Platform are leveraged to provide users with a complete experience, e.g. UI Theme Designer for branding your site, SAP Task Manager as a central inbox for all business tasks and SAP BTP security services for Single Sign-on. 
 
-![SAP Build Work Zone Architecture](images/architecture.png)
+![SAP Build Work Zone Architecture](images/4-architecture.png)
 
 ## Understanding content entities
 
 Let's take a look how the content entities relate to each other. In SAP Build Work Zone Content is created separately from sites and assigned to the sites via roles. When users access sites, they only see the content they are entitled to see by the roles that were assigned to them. On the other side, apps are assigned to roles. The role gives all its assigned users the permission to access all assigned apps. This does not yet mean that the app will be displayed on the home page - it might also be available via the search or via the App Finder. Display on the home page is handled via group assignment: Apps that are assinged to a group are shown on the home page, but users can add or remove apps from the home page as part of their personalization. Finally, apps can also be assigned to catalogs to make then avaialble in the app finder. 
 
-![Content entities](images/content-entities.png)
+![Content entities](images/5-content-entities.png)
 
 ## Key Tools for SAP Build Work Zone, standard edition administration
 
@@ -25,7 +25,7 @@ The **Content Manager** manages cross-site content and consists of two areas: Th
 In the **Channel Manager**, administrators can add, update and delete connections to content providers for federated content.
 Finally, in the **Settings**, integration with central services, like notifications or the SAP Identity Provisioning service can be configured. In addition, administrators can access error logs and further configurations here. 
 
-![Key Tools](images/key-tools.png)
+![Key Tools](images/6-key-tools.png)
 
 ## Summary
 
