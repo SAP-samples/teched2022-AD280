@@ -1,6 +1,8 @@
-# Level 1 Heading
+# Integrating Business Content with Content federation
 
-Integrate business content with content federation 
+There are two ways for integrating business content: You can either create applications manually using the tools described in the administration section or consume large amounts of content in a more efficient way with content federation. To do so, content administrators on provider side (e.g. in the S/4HANA system) need to configure the applications and the content structure and then select the roles that should be exposed to SAP Build Work Zone. The Work Zone administrator sets up connectivity with the provider system, selects the content from the provider system and manages role assignments to users and sites.
+
+
 
 ## Level 2 Heading
 
