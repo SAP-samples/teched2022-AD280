@@ -1,28 +1,18 @@
 # Integrating Business Content with Content federation
 
-There are two ways for integrating business content: You can either create applications manually using the tools described in the administration section or consume large amounts of content in a more efficient way with content federation. To do so, content administrators on provider side (e.g. in the S/4HANA system) need to configure the applications and the content structure and then select the roles that should be exposed to SAP Build Work Zone. The Work Zone administrator sets up connectivity with the provider system, selects the content from the provider system and manages role assignments to users and sites.
+## Approaches for integrating business content
 
+There are two ways for integrating business content: You can either create applications manually using the tools described in the administration section or consume large amounts of content in a more efficient way with content federation. To do so, content administrators on provider side (e.g. in the S/4HANA system) need to configure the applications and the content structure and then select the roles that should be exposed to SAP Build Work Zone. The exposure translates the exposure scope, consisting of all apps, groups, catalogs, spaces and pages related to the selected roles, to the Common Data Model (CDM) format. The Work Zone administrator sets up connectivity with the provider system, selects the content from the provider system and manages role assignments to users and sites.
 
+![Integration approaches](images/7-integrating-content.png)
 
-## Level 2 Heading
+## Integration status
 
-After completing these steps you will have....
+Content federation is currently supported for SAP S/4HANA cloud and on-premise systems, for SAP Business Suite systems, SAP Integrated Business Planning, SAP Enterprise Portal, HTML5 apps deployed in the same BTP subaccount, and the SAP BTP ABAP environment. In addition, you can find the current integration status for central services and for manual integration in the following picture.
 
-1.	Click here.
-<br>![](/exercises/ex0/images/00_00_0010.png)
-
-2.	Insert this code.
-``` abap
- DATA(params) = request->get_form_fields(  ).
- READ TABLE params REFERENCE INTO DATA(param) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
-```
+![Integration status](images/8-integration-status.png)
 
 ## Summary
 
-Now that you have ... 
-Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
+Content federation enables administrators to easily integrate large amounts of business content that were configured on the provider system. Go back to [main exercise document](../README.md).
+
