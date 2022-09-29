@@ -6,7 +6,7 @@ This repository contains the material for the SAP TechEd 2022 session called Ses
 
 ## Overview
 
-This session introduces attendees to the creation of an SAP Build Work Zone, standard edition (formerly known as SAP Launchpad service) site in their free trial account. Attendees will learn how to consume federated content from an SAP S/4HANA systems and how to add a custom developed app to the site. 
+This session introduces attendees to the creation of SAP Launchpad service site in their free trial account. Attendees will learn how to consume federated content from an SAP S/4HANA systems and how to add a custom developed app to the site. 
 
 ## Requirements
 
