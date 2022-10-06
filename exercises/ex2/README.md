@@ -1,20 +1,66 @@
 # Exercise 2.3 - Create an SAP Fiori App Using SAP Business Application Studio
 
-In this exercise, you will develop a simple SAPUI5 freestyle application, adhering to SAP Fiori design guidelines. The app shall present a list of suppliers from an on-premise backend, but in this first step, only an empty app with a connection to a backend system will be created. If time permits, feel free to do also the optional exercise 2.4 where you will learn how to enhance your app to display supplier information.
+In this exercise, you will develop a simple SAPUI5 freestyle application, adhering to SAP Fiori design guidelines. The easiest way to develop an SAPUI5 freestyle app from scratch is to create it from a template. To continue developing an existing application, the best practice is to use git source code management and clone the repository.
+
+Using the app creation wizard you can at any point click the Back button to go back to the previous step, or click a specific wizard step to go back to that step.
 
 
-## Exercise 2.1 Sub Exercise 1 Description
+## Step 1: Create an SAPUI5 app from a template
 
-After completing these steps you will have created...
+1. In the *Welcome* tab click **Start from template**.
 
-1. Click here.
-<br>![](/exercises/ex2/images/02_01_0010.png)
+![Start from Template](1-StartfromTemplate.png)
 
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
+2. Select the **SAP Fiori Application** tile, and click **Start**.
 
+![SAP Fiori](2-SAPFioriApp.png)
+
+3. For *Floorplan Selection*, select *Application Type* **SAPUI5 freestyle** from the drop-down, then select the floorplan **SAPUI5 Appliction** and click **Next**.
+
+![SAPUI5 Freestyle](3-SAPUI5App.png)
+
+4. For *Data Source and Service Selection*, select **None** from the drop-down as for this simple app, you will not consume any data from a backend system. Then click **Next**.
+
+![Select Data Source](4-DataSource.png)
+
+5. In the next step, you can change the name of the view. You can simply keep View1 here and click **Next**.
+
+![View name](5-ViewName.png)
+
+6. For **Project Attributes**, select the following, and click **Next**.
+
+    | Step | Parameter | Value |
+    |:-----|:----------|:------|
+    | A | Module name | **`helloworld`** |
+    | B | Application title | **Hello World** |
+    | C | Application namespace | **teched** |
+    | D | Description | **An empty SAPUI5 freestyle app** |
+    | E | Project folder path | **`/home/user/projects`** (default)|
+    | F | Minimum SAPUI5 version | **1.102.1** (default) |
+    | G | Add deployment configuration | **Yes** |
+    | H | Add FLP configuration | **Yes** |
+    | I | Configure advanced options | **No** (default) |
+
+    ![Project Attributes](6-Attributes.png)
+    
+7. For **Deployment Configuration**, select **Cloud Foundry** from the drop-down. Keep *Destination Name* **None** and **Yes** for using the managed app router, as you will not use a backend system for consuming data. Click **Next**.
+
+![Deployment Settings](7-DeploymentSettings.png)
+
+>When end-users access an app in the Cloud Foundry environment, they actually access the Application Router first. The application router is used to serve static content, authenticate users, rewrite URLs, and forward or proxy requests to other micro services while propagating user information.
+>
+>The recommendation is to use **Managed Application Router** that provides many benefits, when compared to Standalone Application Router, such as save resources, lower maintenance efforts, an easier integration into SAP Build Work Zone, etc. Standalone Application Router should only be used in advanced cases, for example when application router extensibility is required. More information is available in [Developing HTML5 Applications in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/11d77aa154f64c2e83cc9652a78bb985.html)
+
+8. Finally, for **Fiori Launchpad Configuration**, select the following, and click **Finish**.
+
+    | Step | Parameter | Value |
+    |:-----|:----------|:------|
+    | A | Semantic Object | **helloworld** |
+    | B | Action | **display** |
+    | B | Title | **My Hello World** |
+    | B | Subtitle (optional) | Add a subtitle of your choice |
+
+    ![Launchpad configuration](8-LaunchpadConfig.png)
 
 
 ## Exercise 2.2 Sub Exercise 2 Description
