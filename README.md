@@ -36,6 +36,8 @@ Finally, you will now create your own custom developed app with the Business App
     - [Exercise 2.1 - Set Up SAP Business Application Studio for Development](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-create-sitelaunchpad.html)
     - [Exercise 2.2 - Create a Dev Space for SAP Fiori Apps](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-new-sapui5.html)
     - [Exercise 2.3 - Create an SAP Fiori App Using SAP Business Application Studio](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-new-sapui5.html)
+        
+        This exercise creates a very simple app. If you want to learn how to create an app consuming data from an SAP system, you can also do [this advanced exercise](https://developers.sap.com/tutorials/appstudio-fioriapps-create.html) instead. But note that you would first need to [create an account on the SAP Gateway demo system](https://developers.sap.com/tutorials/gateway-demo-signup.html) and then [connect your BTP trial to it](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-gateway-connection.html). So this will take about 20 minutes longer.
     - [Exercise 2.4 - Optional: Enhance your SAP Fiori App using the Content Editor](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-new-sapui5.html)
     - [Exercise 2.5 - Build and Deploy Your SAP Fiori App to SAP Business Technology Platform](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-new-sapui5.html)
     - [Exercise 2.6 - Integrate Your SAPUI5 App into Your Launchpad Site](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-create-sitelaunchpad.html)
