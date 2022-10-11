@@ -1,35 +1,22 @@
----
-title: Set Up SAP Launchpad Service Using a Trial Account
-description: To get started with building a launchpad site in the SAP Launchpad service, you must perform the required onboarding steps.
-auto_validation: true
-time: 5
-tags: [ tutorial>beginner, software-product>sap-business-technology-platform, software-product>cloud, software-product>sap-fiori, software-product>sap-launchpad-service]
-primary_tag: software-product>sap-launchpad-service
-author_name: Lindsay Bert
-author_profile: https://github.com/LindsayBert
----
+# Set Up SAP Build Work Zone, Standard Edition (former SAP Launchpad Service) Using a Trial Account
+
+To get started with building a site in SAP Build Work Zone standard, you must perform the required onboarding steps in the SAP Business Technology Platform cockpit.
 
 ## Prerequisites
-  - If you want to use a trial environment, you need to first register it. You can register to a trial account using this link: [Create a trial account](https://www.sap.com/israel/products/business-technology-platform/trial.html). Scroll down and click **Get trial now**.
-  - If you're using a production environment, you should have a subaccount configured. If you don't have a configured subaccount, refer to this topic: [Initial Setup](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/fd79b232967545569d1ae4d8f691016b.html).
-
-
+In this workshop, you will use the trial environment. If you do not have a trial account yet, you need to first register it using this link: [Create a trial account](https://www.sap.com/products/business-technology-platform/trial.html). Scroll down and click **Get trial now**.
+ 
 Note that you can also do this tutorial using a SAP BTP free plan option. To do this, please follow this tutorial: [Set Up SAP Launchpad Service Using the Free Tier Model for SAP BTP](cp-portal-cloud-foundry-setup-freetier).
 
 
 ## Details
 ### You will learn
-  - How to subscribe to the SAP Launchpad service
-  - How to assign yourself to the `Launchpad_Admin` role so that you can create and manage sites in the SAP Launchpad service
-  - How to access the SAP Launchpad service
+  - How to subscribe to the SAP Launchpad service (now called SAP Build Work Zone, standard edition)
+  - How to assign yourself to the `Launchpad_Admin` role so that you can create and manage sites 
+  - How to access the administration environment
 
-In this group of tutorials our goal is to create a launchpad site using the SAP Launchpad service. But before we can do this, there are some steps you'll need to do in the SAP BTP cockpit.
+### Step 1: Subscribe to the service
 
->Note that the SAP Launchpad service offers two types of standard plans. The **Applications Plan** which is used to access your applications from the launchpad. In this case, you need to create a subscription to the SAP Launchpad service, which you will do in Step 1. The 2nd plan is the **Service Plan** which is used to integrate with other services. This plan is not required for the scope of this tutorial.
-
-[ACCORDION-BEGIN [Step 1: ](Subscribe to the SAP Launchpad service)]
-
-Before you can access the SAP Launchpad service, you first need to subscribe to it.
+Before you can access and use the service, you first need to subscribe to it.
 
 1. [Log onto SAP BTP](https://cockpit.hanatrial.ondemand.com) and click **Go To Your Trial Account**.
 
@@ -84,49 +71,38 @@ Before you can access the SAP Launchpad service, you first need to subscribe to 
     ![Subscribed](9-subscribed.png)
 
 
-[DONE]
-[ACCORDION-END]
-
-
-[ACCORDION-BEGIN [Step 2: ](Add yourself to the Launchpad_Admin role)]
+### Step 2: Add yourself to the Launchpad_Admin role
 
 To be able to access the SAP Launchpad service, users must be assigned to the `Launchpad_Admin` role. In this step, you'll assign yourself to this role so that you can access the service and create a launchpad site.
 
 
 1. Click **Role Collections** from the side menu.
 
-      !![Open role collections](10-role-collections.png)
+      ![Open role collections](10-role-collections.png)
 
 2. In the Search field start typing Launchpad to find the `Launchpad_Admin` role collection.
 
-    !![Search for launchpad admin](11-search-launchpad-admin.png)
+    ![Search for launchpad admin](11-search-launchpad-admin.png)
 
 3. In the row with the `Launchpad_Admin` role collection, click the arrow at the far right of the row.
 
-    !![Click arrow](12-open-role-collection.png)
+    ![Click arrow](12-open-role-collection.png)
 
     You can see all the details of the `Launchpad_Admin` role collection.
 
 4. Click **Edit**
 
-    !![Click Edit](13-click-edit.png)
+    ![Click Edit](13-click-edit.png)
 
 5. Under the **Users** tab, enter your email in both the **ID** and the **E-Mail** fields. Then click **Save**.
 
-    !![Add emails](14-add-emails.png)
+    ![Add emails](14-add-emails.png)
 
 
-You've now been assigned to the `Launchpad_Admin` role collection and you can access the SAP Launchpad service and carry out all your admin tasks.
-
-> It may take a few minutes for the admin role assignment to take effect.  Until it does, you may get an **Access Denied** error when you click the launchpad tile or **Go to Application**.
-
-[DONE]
-[ACCORDION-END]
+You've now been assigned to the `Launchpad_Admin` role collection and you can access SAP Build Work Zone and carry out all your admin tasks.
 
 
-[ACCORDION-BEGIN [Step 3: ](Access the SAP Launchpad service)]
-
-You are now ready to access the SAP Launchpad service.  
+### Step 3: Access the SAP Build Work Zone standard
 
 1. From the side panel, click **Instances and Subscriptions**.
 
@@ -136,11 +112,9 @@ You are now ready to access the SAP Launchpad service.
 
     ![Go to application](16-go-to-application.png)
 
-   The SAP Launchpad service opens with the Site Directory in focus. This is where you'll create and manage your launchpad sites.
+   The service opens with the Site Directory in focus. This is where you'll create and manage your sites.
+   
+   > It may take a few minutes for the admin role assignment to take effect.  If you get an **Access Denied** error, please try to access the admin environment in an anonymous window or logout and login again.
 
   ![Open Site Directory](17-open-site-directory.png)
 
-
-[VALIDATE_6]
-
-[ACCORDION-END]
