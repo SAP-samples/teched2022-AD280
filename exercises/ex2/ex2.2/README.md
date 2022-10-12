@@ -6,7 +6,7 @@ In this exercise, you will develop a simple SAPUI5 freestyle application, adheri
 
 2. Creating an SAPUI5 app from a template within this project.
 
-
+<br>
 
 ### Step 1: Create new Multitarget Application project
 
@@ -41,6 +41,7 @@ In this exercise, you will develop a simple SAPUI5 freestyle application, adheri
 
     ![project creation completed](images/04-FilesGenerated.png)
 
+<br>
 
 ### Step 2: Open the project's workspace
 
@@ -60,6 +61,7 @@ Your workspace is an entity containing your project's settings, debug configurat
 
     ![open workspace dialog](images/07-SpaceOpen.png)
 
+<br>
 
 ## Step 3: Create an SAPUI5 app from a template
 
@@ -121,6 +123,7 @@ Using the app creation wizard you can at any point click the Back button to go b
     
     ![application generated](images/10a-Project.png)
 
+<br>
 
 ### Step 4: Run the App Locally in the Dev Space
 
@@ -147,6 +150,8 @@ To test your app, you can now run it locally within SAP Business Application Stu
     >If the browser tab does not open, or a notification "You have exceeded the number of ports you can expose" appears at the bottom-right of the page, you may need to un-expose ports. Select the **Ports: `Unexpose`** option in the command palette (View | Find Command) to un-expose a port that is in an **[Active]** state. Repeat this procedure until no more than two ports are in **[Active]** state, and try again.
 
     ![App running locally](images/13-HelloWorld.png)
+
+<br>
 
 ## Summary
 
