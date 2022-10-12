@@ -1,32 +1,18 @@
----
-title: Integrate Your SAPUI5 App into Your Launchpad Site
-description: Add an SAPUI5 app to a launchpad site in the SAP Launchpad service.
-auto_validation: true
-time: 15
-tags: [ tutorial>beginner, products>sap-business-technology-platform, products>sap-launchpad-service, products>sap-fiori, programming-tool>html5, programming-tool>sapui5]
-primary_tag: software-product>sap-launchpad-service
-author_name: Lindsay Bert
-author_profile: https://github.com/LindsayBert
----
+# Integrate Your SAPUI5 App into Your Launchpad Site
+
+In this exercise, you will learn how to a custom-developed SAPUI5 app that has been deployed to SAP BTP, Cloud Foundry environment to your site.
 
 ## Prerequisites
  - You've already created the `JobCore` launchpad site.
  - You've deployed your SAPUI5 app (including the navigation properties), to SAP BTP, Cloud Foundry environment.
 
 
-## Details
-### You will learn
-  - How to add a deployed, custom-developed, SAPUI5 app to your launchpad site
-
----
 Once you've deployed your SAPUI5 app to SAP BTP, it becomes available to add to your launchpad site.
 
 
-[ACCORDION-BEGIN [Step 1: ](Fetch updated content using the Provider Manager)]
+### Step 1: Fetch updated content using the Provider Manager
 
-1. In the side navigation panel of your subaccount, click **Instances and Subscriptions** and then next to the Launchpad Service, click the **Go to Application** icon next to it.
-
-    ![Open launchpad service](000-open-launchpad-service.png)
+1. Go back to the Administration environment of SAP Build Work Zone, standard edition.
 
 2. Click the **Provider Manager** icon to view any available content providers.
 
@@ -42,12 +28,11 @@ Once you've deployed your SAPUI5 app to SAP BTP, it becomes available to add to 
 
     ![Fetch updated content](00-fetch-updated-content.png)
 
-The **HTML5 Apps** content provider should now expose any newly deployed app for integration.
+The **HTML5 Apps** content provider will now expose any newly deployed app for integration.
 
-[DONE]
-[ACCORDION-END]
 
-[ACCORDION-BEGIN [Step 2: ](Add your deployed SAPUI5 app to your content)]
+
+### Step 2: Add your deployed SAPUI5 app to your content
 
 1. Click the Content Manager icon in the side panel to open the **Content Manager**.
 
@@ -63,7 +48,7 @@ The **HTML5 Apps** content provider should now expose any newly deployed app for
 
     ![Select the HTML5 tile](3a-select-HTML5-tile.png)
 
-4. You'll see that your `Suppliers` app that you've just created in SAP Business Application Studio, already exists in this provider. Select it and click **+ Add to My Content**.
+4. You'll see that your `Hello World` app that you've just created in SAP Business Application Studio, already exists in this provider. Select it and click **+ Add to My Content**.
 
     !![Add app to My Content](4-add-app-my-content.png)
 
@@ -71,29 +56,24 @@ The **HTML5 Apps** content provider should now expose any newly deployed app for
 
     ![Click My Content](5-click-my-content.png)
 
-    Note that your `Suppliers` app is in the list of content items.
-
-[DONE]
-[ACCORDION-END]
+    Note that your `Hello World` app is in the list of content items.
 
 
-[ACCORDION-BEGIN [Step 3: ](Create group and assign app to it)]
+### Step 3: Create group and assign app to it
 
-In this step, you'll create a new group and assign the `Suppliers` app to it.
-
-> A group is a set of one or more apps displayed together in a launchpad site. Assigning apps to groups, makes them visible to the user.
+In this step, you'll create a new group and assign the `Hello World` app to it.
 
 1. Click **+ New** in the **Content Manager** and select **Group** to create a new group.
 
     ![Add new group](6-add-group.png)
 
-2. Enter `Our Suppliers` as the **Title**.
+2. Enter `Simple Apps` as the **Title**.
 
 3. In the **Assignments** panel on the right, click in the search box to see a list of apps.
 
-    >If you have many apps, you can type some letters of your app name in the search bar, (for example, `su`) to search for the app.
+    >If you have many apps, you can type some letters of your app name in the search bar, (for example, `he`) to search for the app.
 
-4. Next to the `Suppliers` app, click the **+** icon to assign your app to this group.
+4. Next to the `Hello World` app, click the **+** icon to assign your app to this group.
 
     ![Assign app to group](7-assign-app-to-group.png)
 
@@ -105,12 +85,9 @@ In this step, you'll create a new group and assign the `Suppliers` app to it.
 
 
 
-[DONE]
-[ACCORDION-END]
+### Step 4: Assign app to Everyone role
 
-[ACCORDION-BEGIN [Step 4: ](Assign app to Everyone role)]
-
-In this step, you'll assign the `Suppliers` app to the `Everyone` role. This is a default role - content assigned to the `Everyone` role is visible to all users.
+In this step, you'll assign the `Hello World` app to the `Everyone` role. This is a default role - content assigned to the `Everyone` role is visible to all users.
 
 1. Open the **Content Manager** from the side panel.
 
@@ -126,14 +103,12 @@ In this step, you'll assign the `Suppliers` app to the `Everyone` role. This is 
 
 4. Click the search box in the **Assignments** panel on the right. Any available apps are shown in the list below.
 
-5. Next to the `Suppliers` app, click the **+** icon. You'll see that the icon changes.
+5. Next to the `Hello World` app, click the **+** icon. You'll see that the icon changes.
 
 6. Click **Save**.
 
-[DONE]
-[ACCORDION-END]
 
-[ACCORDION-BEGIN [Step 5: ](Review your site)]
+### Step 5: Review your site
 
 1. Click the **Site Directory** icon to open the Site Directory.
 
@@ -152,5 +127,5 @@ In this step, you'll assign the `Suppliers` app to the `Everyone` role. This is 
 
     ![View app](13-suppliers-app.png)
 
-[VALIDATE_6]
-[ACCORDION-END]
+
+
