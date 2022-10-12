@@ -6,7 +6,7 @@ This repository contains the material for the SAP TechEd 2022 session called Ses
 
 ## Overview
 
-This session introduces attendees to the creation of SAP Launchpad service site in their free trial account. Attendees will learn how to consume federated content from an SAP S/4HANA systems and how to add a custom developed app to the site. 
+This session introduces attendees to the creation of SAP Launchpad service site in their free trial account. Attendees will learn how to consume federated content from an SAP S/4HANA systems and how to add a custom developed app to the site. Finally, you will consume your site on the SAP Mobile Start app.
 
 ## Requirements
 
@@ -30,7 +30,7 @@ The next part of the SAP TechEd workshop is not an exercise for participants, bu
 
 Attendees who would like to run this exercise **after the TechEd workshop**, would need to have administrator access to an SAP S/4HANA 2020 system or higher available, e.g. using an [SAP S/4 HANA Fully Activated Appliance 30-day trial system](https://www.sap.com/products/erp/s4hana/trial.html) from the SAP Cloud Appliance Library. See this [Quick Start Guide](https://www.sap.com/documents/2019/04/4276422b-487d-0010-87a3-c30de2ffd8ff.html#page=1) for more information. Please follow the instructions in this [Enhance Your SAP Launchpad Site with Federated SAP S/4HANA Content tutorial](https://developers.sap.com/mission.launchpad-s4hana.html), but note that not all parts of this tutorial are shown in the demo at the TechEd workshop.
 
-Finally, you will now create your own custom developed app with the Business Application Studio and easily integrate it into your site. To do this, you first need to create a subscription of the Business Application Studio and create a dev space. In the fourth part of this exercise, you will enhance the application. This is optional due to time constraints, as this exercise is not mandatory for the integration of the app into your site, but will show you how easily you can display business content from a real backend system.
+In the next step, you will now create your own custom developed app with the Business Application Studio and easily integrate it into your site. To do this, you first need to create a subscription of the Business Application Studio and create a dev space. In the fourth part of this exercise, you will enhance the application. This is optional due to time constraints, as this exercise is not mandatory for the integration of the app into your site, but will show you how easily you can display business content from a real backend system.
 
 - Exercise 2 - Integrate a custom developed SAPUI5 app into your site
     - [Exercise 2.1 - Set Up SAP Business Application Studio for Development](exercise/ex2/ex2.1/readme.md)
@@ -40,6 +40,11 @@ Finally, you will now create your own custom developed app with the Business App
  
     - [Exercise 2.3 - Build and Deploy Your SAP Fiori App to SAP Business Technology Platform](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-new-sapui5.html)
     - [Exercise 2.4 - Integrate Your SAPUI5 App into Your Launchpad Site](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-create-sitelaunchpad.html)
+
+
+- [Exercise 3 - Access your site with SAP Mobile Start](exercise/ex3/readme.md)
+
+
 
 
 **IMPORTANT**
