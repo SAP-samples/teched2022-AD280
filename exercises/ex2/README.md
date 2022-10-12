@@ -123,7 +123,9 @@ Using the app creation wizard you can at any point click the Back button to go b
 
 9. Wait until the installation of project dependencies is completed. A notification that "The project has been generated" appears at the bottom right of the screen, The **Application Information** tab is opened, and the files and project structure in the **Explorer** view are updated.
 
-    ![application generated](BAS-Generate-App-10-1-.png)
+    ![application generated](images/BAS-Generate-App-10-1-.png)
+    
+    ![application generated](images/10-Project.png)
 
 
 ### Step 4: Run the App Locally in the Dev Space
@@ -132,11 +134,11 @@ To test your app, you can now run it locally within SAP Business Application Stu
 
 1.	Click the **Run Configurations** view button to open the `Run Configurations` view. A set of run configuration that were created as part of the app generation are presented.
 
-    ![Open Run Configurations](BAS-Local-Run-1-1-.png)
+    ![Open Run Configurations](images/11-RunConfig.png)
 
 2.	Click the **Play** icon of the **`Start helloworld`** run configuration to run the app locally in the dev space.
 
-    ![Play helloworld](BAS-Local-Run-2-1-.png)
+    ![Play helloworld](images/11-RunConfig.png)
 
     >You may be prompted to allow pop-ups.
 
@@ -146,13 +148,13 @@ To test your app, you can now run it locally within SAP Business Application Stu
 
     >You may be prompted to open the app in a new tab.
 
-    ![Debug View](BAS-Local-Run-3-1-3-.png)
+    ![Debug View](images/12-LocalRunPopUp.png)
 
 3. A new browser tab opens showing the app. In this stage of the development, the app only shows a title.
 
     >If the browser tab does not open, or a notification "You have exceeded the number of ports you can expose" appears at the bottom-right of the page, you may need to un-expose ports. Select the **Ports: `Unexpose`** option in the command palette (View | Find Command) to un-expose a port that is in an **[Active]** state. Repeat this procedure until no more than two ports are in **[Active]** state, and try again.
 
-    ![App running locally](AppStudio-Local-Run-3-.png)
+    ![App running locally](images/13-HelloWorld.png)
 
 ## Summary
 
