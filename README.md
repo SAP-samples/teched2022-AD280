@@ -1,6 +1,6 @@
 # AD280 - A Beginning to End Workshop on Configuring SAP Launchpad Service
 
-![Title](images/Title.png)
+![Title](Title.png)
 
 ## Description
 
