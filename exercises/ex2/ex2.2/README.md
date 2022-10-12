@@ -58,7 +58,7 @@ Your workspace is an entity containing your project's settings, debug configurat
 
     >The status bar color changes to blue, indicating that a workspace is open.
 
-    ![open workspace dialog](images/07-WorkspaceOpen.png)
+    ![open workspace dialog](images/07-SpaceOpen.png)
 
 
 ## Step 3: Create an SAPUI5 app from a template
@@ -67,11 +67,11 @@ Using the app creation wizard you can at any point click the Back button to go b
 
 1. In the *Welcome* tab click **Start from template**.
 
-![Start from Template](images/1-StartfromTemplate.png)
+![Start from Template](images/1b-StartfromTemplate.png)
 
 2. Select the **SAP Fiori Application** tile, and click **Start**.
 
-![SAP Fiori](images/2-SAPFioriApp.png)
+![SAP Fiori](images/2b-SAPFioriApp.png)
 
 3. For *Floorplan Selection*, select *Application Type* **SAPUI5 freestyle** from the drop-down, then select the floorplan **SAPUI5 Appliction** and click **Next**.
 
@@ -99,15 +99,11 @@ Using the app creation wizard you can at any point click the Back button to go b
     | H | Add FLP configuration | **Yes** |
     | I | Configure advanced options | **No** (default) |
 
-    ![Project Attributes](images/6-Attributes.png)
+    ![Project Attributes](images/6a-Attributes.png)
     
 7. For **Deployment Configuration**, keep the defaults **Cloud Foundry** and *Destination Name* **None** and **Yes** for using the managed app router, as you will not use a backend system for consuming data. Click **Next**.
 
 ![Deployment Settings](images/7-DeploymentSettings.png)
-
->When end-users access an app in the Cloud Foundry environment, they actually access the Application Router first. The application router is used to serve static content, authenticate users, rewrite URLs, and forward or proxy requests to other micro services while propagating user information.
->
->The recommendation is to use **Managed Application Router** that provides many benefits, when compared to Standalone Application Router, such as save resources, lower maintenance efforts, an easier integration into SAP Build Work Zone, etc. Standalone Application Router should only be used in advanced cases, for example when application router extensibility is required. More information is available in [Developing HTML5 Applications in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/11d77aa154f64c2e83cc9652a78bb985.html)
 
 8. Finally, for **Fiori Launchpad Configuration**, select the following, and click **Finish**.
 
@@ -122,10 +118,8 @@ Using the app creation wizard you can at any point click the Back button to go b
 
 
 9. Wait until the installation of project dependencies is completed. A notification that "The project has been generated" appears at the bottom right of the screen, The **Application Information** tab is opened, and the files and project structure in the **Explorer** view are updated.
-
-    ![application generated](images/BAS-Generate-App-10-1-.png)
     
-    ![application generated](images/10-Project.png)
+    ![application generated](images/10a-Project.png)
 
 
 ### Step 4: Run the App Locally in the Dev Space
@@ -134,7 +128,7 @@ To test your app, you can now run it locally within SAP Business Application Stu
 
 1.	Click the **Run Configurations** view button to open the `Run Configurations` view. A set of run configuration that were created as part of the app generation are presented.
 
-    ![Open Run Configurations](images/11-RunConfig.png)
+    ![Open Run Configurations](images/10b-RunConfig.png)
 
 2.	Click the **Play** icon of the **`Start helloworld`** run configuration to run the app locally in the dev space.
 
@@ -156,6 +150,6 @@ To test your app, you can now run it locally within SAP Business Application Stu
 
 ## Summary
 
-You've now ...
+You've now created a simple app. In the next exercise you will build the app and deploy it to Cloud Foundry.
 
 Continue to - [Exercise 2.3 - Build and Deploy your application ](../ex2.3/README.md)
