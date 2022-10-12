@@ -12,17 +12,15 @@ In this exercise, you will develop a simple SAPUI5 freestyle application, adheri
 
 1. In the menu bar, select **View | Find Command** to open the **command palette**.
 
-    ![open command palette](images/BAS-Create-MTA-1-.png)
+    ![Open command palette](images/01-FindCommand.png)
 
 2. The command palette is opened at the top-center of the SAP Business Application Studio window.
-
-    ![command palette opened](images/AppStudio-Create-MTA-2-.png)
 
 3. Select the **Fiori: Open CF Application Router Generator** command in the command palette. Type `fiori: open` in the command palette text field to filter the commands.
 
     >Filter the list of commands in the command palette by typing part of the command in the command palette text field.
 
-    ![cf mta and approuter wizard](images/BAS-Create-MTA-3-.png)
+    ![Find CF Application Router Generator](images/02-EnterFiori.png)
 
 4. The **Application Router Generator Wizard** tab is opened. For **Application Router Configuration**, select the following, and click **Finish**.
 
@@ -33,7 +31,7 @@ In this exercise, you will develop a simple SAPUI5 freestyle application, adheri
     | C | MTA Description | Can be left empty (default) |
     | D | Add route module | **Managed Approuter** |
 
-    ![Fill-in cf mta and approuter wizard](images/BAS-Create-MTA-4-.png)
+    ![Fill-in cf mta and approuter wizard](images/03-CreateRoute.png)
 
     >When end-users access an app in the Cloud Foundry environment, they actually access the Application Router first. The application router is used to serve static content, authenticate users, rewrite URLs, and forward or proxy requests to other micro services while propagating user information.
 
@@ -41,7 +39,7 @@ In this exercise, you will develop a simple SAPUI5 freestyle application, adheri
 
 5. Wait until the creation of project is completed. A notification that "The files have been generated" appears at the bottom right of the screen.
 
-    ![project creation completed](images/BAS-Create-MTA-5-.png)
+    ![project creation completed](images/04-FilesGenerated.png)
 
 
 ### Step 2: Open the project's workspace
@@ -50,17 +48,17 @@ Your workspace is an entity containing your project's settings, debug configurat
 
 1. In the menu bar, select **File | Open Workspace...** to open the **Open Workspace** dialog.
 
-    ![open workspace dialog](images/BAS-Open-Workspace-1-.png)
+    ![open workspace dialog](images/05-FileOpen.png)
 
 2. The **Open Workspace** dialog is opened at the center of the SAP Business Application Studio window. Select the **`FioriDemo`** project within the **projects** folder, and click **Open**.
 
-    ![open workspace dialog](images/BAS-Open-Workspace-2-1-.png)
+    ![open workspace dialog](images/06-FioriDemo.png)
 
 3. SAP Business Application Studio reloads with the `FioriDemo` project open in its workspace. In the Explorer view you can see the `FioriDemo` project, its folder structure, and files.
 
     >The status bar color changes to blue, indicating that a workspace is open.
 
-    ![open workspace dialog](images/BAS-Open-Workspace-3-.png)
+    ![open workspace dialog](images/07-WorkspaceOpen.png)
 
 
 ## Step 3: Create an SAPUI5 app from a template
