@@ -160,4 +160,4 @@ To test your app, you can now run it locally within SAP Business Application Stu
 
 You've now ...
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue to - [Exercise 2.3 - Build and Deploy your application ](../ex2.3/README.md)
