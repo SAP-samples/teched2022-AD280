@@ -6,6 +6,7 @@ In this tutorial you will create a site for a recruiting company called `JobCore
 ## Prerequisites
 You have subscribed to the SAP Launchpad service and assigned yourself to the `Launchpad_Admin` role.
 
+<br>
 
 ### Step 1: Create a site
 
@@ -16,24 +17,33 @@ When you access the admin environment, the Site Directory is in focus. From here
 
 1. Click **Create Site**.
 
-    ![Create site](1_create_new_site.png)
+    ![Create site](1a-create-new-site.png)
 
 2. Enter `JobCore` as the site name and click **Create**.
 
-    ![Name site](2_name_site.png)
+    ![Name site](2a-name-site.png)
 
 You've just created a site called `JobCore`.
 
+<br>
 
 ### Step 2: Navigate to the Site Directory
 
-When you create a site, you are directed to the **Site Settings** screen where you can edit the site settings and assign a site to a specific user role.
+When you create a site, you are directed to the **Site Settings** screen where you can edit the site settings and assign roles to the site. 
+
+> In the site settings, you can configure various site capabilities, e.g. integration with SAP Mobile Start, Enterprise Search. You can enable Key User Adaptation and define with options users should have, e.g. if users are able to personalize the site or select a theme or a language.
 
 Navigate back to the **Site Directory** to view the site tile.
 
-  ![Navigate to site directory](3_to_site_directory.png)
+  ![Navigate to site directory](3a-to-site-directory.png)
 
+<br>
 
-  Your site is empty for now. In the next exercises, you're going to add business apps to your launchpad site.
+## Summary
+
+You have created your first site. For now, the site is empty.
+
+Continue to - [Exercise 1.2 - Add an app to your site](../ex1.2/README.md) to add a business app to your site.
+
 
 
