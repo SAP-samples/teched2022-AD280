@@ -140,7 +140,7 @@ To test your app, you can now run it locally within SAP Business Application Stu
 
     >You may be prompted to allow pop-ups or open the app in a new tab.
 
-    ![Debug View](images/12-LocalRunPopUp.png)
+    ![Debug View](images/12a-LocalRunPopUp.png)
 
 3. A new browser tab opens showing the app. In this stage of the development, the app only shows a title.
 
