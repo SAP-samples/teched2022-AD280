@@ -4,23 +4,25 @@ In this exercise, you will develop a simple SAPUI5 freestyle application, adheri
 
 1. Running a wizard that creates a multi-target application (MTA) project that is configured to use Managed Application Router. An MTA is required in order to create the deployment artifact for SAP BTP, Cloud Foundry environment. If you are not familiar with the MTA concepts, read this [guide](https://www.sap.com/documents/2016/06/e2f618e4-757c-0010-82c7-eda71af511fa.html). Creating the MTA project upfront does not take long and will allow you to save time later in the exercise.
 
+2. Creating an SAPUI5 app from a template within this project.
+
 
 
 ### Step 1: Create new Multitarget Application project
 
 1. In the menu bar, select **View | Find Command** to open the **command palette**.
 
-    ![open command palette](BAS-Create-MTA-1-.png)
+    ![open command palette](images/BAS-Create-MTA-1-.png)
 
 2. The command palette is opened at the top-center of the SAP Business Application Studio window.
 
-    ![command palette opened](AppStudio-Create-MTA-2-.png)
+    ![command palette opened](images/AppStudio-Create-MTA-2-.png)
 
 3. Select the **Fiori: Open CF Application Router Generator** command in the command palette. Type `fiori: open` in the command palette text field to filter the commands.
 
     >Filter the list of commands in the command palette by typing part of the command in the command palette text field.
 
-    ![cf mta and approuter wizard](BAS-Create-MTA-3-.png)
+    ![cf mta and approuter wizard](images/BAS-Create-MTA-3-.png)
 
 4. The **Application Router Generator Wizard** tab is opened. For **Application Router Configuration**, select the following, and click **Finish**.
 
@@ -31,7 +33,7 @@ In this exercise, you will develop a simple SAPUI5 freestyle application, adheri
     | C | MTA Description | Can be left empty (default) |
     | D | Add route module | **Managed Approuter** |
 
-    ![Fill-in cf mta and approuter wizard](BAS-Create-MTA-4-.png)
+    ![Fill-in cf mta and approuter wizard](images/BAS-Create-MTA-4-.png)
 
     >When end-users access an app in the Cloud Foundry environment, they actually access the Application Router first. The application router is used to serve static content, authenticate users, rewrite URLs, and forward or proxy requests to other micro services while propagating user information.
 
@@ -39,7 +41,7 @@ In this exercise, you will develop a simple SAPUI5 freestyle application, adheri
 
 5. Wait until the creation of project is completed. A notification that "The files have been generated" appears at the bottom right of the screen.
 
-    ![project creation completed](BAS-Create-MTA-5-.png)
+    ![project creation completed](images/BAS-Create-MTA-5-.png)
 
 
 ### Step 2: Open the project's workspace
@@ -48,17 +50,17 @@ Your workspace is an entity containing your project's settings, debug configurat
 
 1. In the menu bar, select **File | Open Workspace...** to open the **Open Workspace** dialog.
 
-    ![open workspace dialog](BAS-Open-Workspace-1-.png)
+    ![open workspace dialog](images/BAS-Open-Workspace-1-.png)
 
 2. The **Open Workspace** dialog is opened at the center of the SAP Business Application Studio window. Select the **`FioriDemo`** project within the **projects** folder, and click **Open**.
 
-    ![open workspace dialog](BAS-Open-Workspace-2-1-.png)
+    ![open workspace dialog](images/BAS-Open-Workspace-2-1-.png)
 
 3. SAP Business Application Studio reloads with the `FioriDemo` project open in its workspace. In the Explorer view you can see the `FioriDemo` project, its folder structure, and files.
 
     >The status bar color changes to blue, indicating that a workspace is open.
 
-    ![open workspace dialog](BAS-Open-Workspace-3-.png)
+    ![open workspace dialog](images/BAS-Open-Workspace-3-.png)
 
 
 ## Step 3: Create an SAPUI5 app from a template
@@ -140,13 +142,11 @@ To test your app, you can now run it locally within SAP Business Application Stu
 
     ![Play helloworld](images/11-RunConfig.png)
 
-    >You may be prompted to allow pop-ups.
-
     >The **Debug** view opens, and the status bar color changes to orange, indicating that a debug session is in progress.
 
     >A new tab opens in SAP Business Application Studio where you can see the log of the running app.
 
-    >You may be prompted to open the app in a new tab.
+    >You may be prompted to allow pop-ups or open the app in a new tab.
 
     ![Debug View](images/12-LocalRunPopUp.png)
 
