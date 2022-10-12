@@ -4,8 +4,10 @@ In this exercise you will learn:
 - how to build and deploy an application to SAP BTP, Cloud Foundry environment
 - how to configure Cloud Foundry settings in SAP Business Application StudioBuild and deploy your SAP Fiori MTA project to your SAP BTP, Cloud Foundry environment.
 
+<br>
 
 ### Step 1: Build the application
+
 
 1. Go back to the **Explorer** pane.
 
@@ -17,11 +19,12 @@ In this exercise you will learn:
 
 ![build mta](images/2-BuildMTA.png)
 
-    >The build process creates a multi-target archive (`MTAR`) file in your project that packages all the project modules for deployment. You can find the `MTAR` file in the `FioriDemo/mta_archives` folder.
+> The build process creates a multi-target archive (`MTAR`) file in your project that packages all the project modules for deployment. 
+> You can find the `MTAR` file in the `FioriDemo/mta_archives` folder.
 
-    ![terminal mbt build results](3-MTAArchives.png)
+![terminal mbt build results](3-MTAArchives.png)
 
-
+<br>
 
 ### Step 2: Set Cloud Foundry preferences
 
@@ -31,7 +34,7 @@ If you are not logged in to a Cloud Foundry space - Before you can deploy your n
 
 2. Select the command **CF: Login to cloud foundry**.
 
-    >Type `cf` to filter commands.
+    > Type `cf` to filter commands.
 
     ![Command Palette-Login to CF](images/5-LoginCF.png)
 
@@ -43,16 +46,18 @@ If you are not logged in to a Cloud Foundry space - Before you can deploy your n
 
     ![Cloud Foundry Login dialog](BAS-CF-Login-4-.png)
 
-    >**You have been logged in.** notification appears at the bottom-right of your screen.
+    > A *You have been logged in* notification appears at the bottom-right of your screen.
+    
 
-    >!![Logged in to CF](BAS-CF-Login-5-.png)
+    ![Logged in to CF](BAS-CF-Login-5-.png)
 
+<br>
 
 ### Step 3: Deploy your application to SAP BTP, Cloud Foundry environment
 
 1. Right-click the `mtar` file and select **Deploy MTA Archive**.
 
-    !![deploy mtar](images/5-Deploy.png)
+    ![deploy mtar](images/5-Deploy.png)
 
     >The application deployment to the space you are connected to starts and a notification appears. You can follow the deployment progress in the **Task: Deploy** console at the bottom of your screen.
 
@@ -60,14 +65,13 @@ If you are not logged in to a Cloud Foundry space - Before you can deploy your n
 
     >The deployment process takes a few minutes. When the deployment process is complete, the notifications **Process finished.** and **Terminal will be reused by tasks.** will appear at the bottom of the **Task: Deploy** console.
 
-    >!![deploy success](BAS-Deploy-2-.png)
+    > ![deploy success](BAS-Deploy-2-.png)
 
 
-Congratulations!
+
+## Summary
 
 With this, you have successfully completed the deployment of your SAP Fiori app to SAP BTP using SAP Business Application Studio.
 
-In this tutorial, you used high productivity tools that are available out-of-the-box in SAP Business Applications Studio that make it easy to build and deploy applications as well as work in the Cloud Foundry environment.
+Continue to - [Exercise 2.4 - Integrate Your SAPUI5 App into Your Site](../ex2.4/README.md)
 
-
----
