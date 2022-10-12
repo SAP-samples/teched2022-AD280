@@ -1,4 +1,4 @@
-# Exercise 2.3 - Create an SAP Fiori App Using SAP Business Application Studio
+# Exercise 2.2 - Create an SAP Fiori App Using SAP Business Application Studio
 
 In this exercise, you will develop a simple SAPUI5 freestyle application, adhering to SAP Fiori design guidelines. The flow consists of two parts:
 
