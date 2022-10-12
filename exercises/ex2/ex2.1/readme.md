@@ -1,4 +1,4 @@
-# Set Up SAP Business Application Studio for Development
+# Exercise 2.1: Set Up SAP Business Application Studio for Development
 
 SAP Business Application Studio is a development environment available on SAP Business Technology Platform. In recent trial accounts, the SAP Business Application Studio is subscribed to by default, so you can directly launch it and create your first Dev Space.
 
@@ -22,7 +22,7 @@ SAP Business Application Studio is a development environment available on SAP Bu
 3. A new tab opens. If you have not created a dev space, the welcome page for SAP Business Application Studio loads. 
 
     ![sap business application studio welcome](images/3-BASWelcome0.png)
-
+<br>
 
 ### Step 2: Create a Dev Space
 
@@ -38,6 +38,23 @@ SAP Business Application Studio is a development environment available on SAP Bu
 
  ![Create Dev Space](images/6-Starting.png)
  
+ <br>
+ 
+ ### Step 3: Enter the Dev Space
+ 
+ 1. When the status has changed to **RUNNING**, click the name of the dev space **WorkZoneContent**.
+ 
+ ![Access Dev Space](images/7-Running.png)
+ 
+ 2. The dev space opens and the Welcome tab appears.
 
+ ![Welcome Tab](images/8-Welcomeg.png)
+ 
+<br>
 
-With this, you have successfully accessed SAP Business Application Studio and created a Dev Space.
+## Summary
+
+You have successfully accessed SAP Business Application Studio and created a Dev Space.
+
+Continue to - [Exercise 2.2 - Create an SAP Fiori App Using SAP Business Application Studio](../ex2.2/README.md).
+
