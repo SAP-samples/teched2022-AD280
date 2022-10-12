@@ -10,6 +10,8 @@ In this exercise, you will learn how to a custom-developed SAPUI5 app that has b
 Once you've deployed your SAPUI5 app to SAP BTP, it becomes available to add to your launchpad site.
 
 
+<br>
+
 ### Step 1: Fetch updated content using the Provider Manager
 
 1. Go back to the Administration environment of SAP Build Work Zone, standard edition.
@@ -31,6 +33,7 @@ Once you've deployed your SAPUI5 app to SAP BTP, it becomes available to add to 
 The **HTML5 Apps** content provider will now expose any newly deployed app for integration.
 
 
+<br>
 
 ### Step 2: Add your deployed SAPUI5 app to your content
 
@@ -59,6 +62,9 @@ The **HTML5 Apps** content provider will now expose any newly deployed app for i
     Note that your `Hello World` app is in the list of content items.
 
 
+<br>
+
+
 ### Step 3: Create group and assign app to it
 
 In this step, you'll create a new group and assign the `Hello World` app to it.
@@ -84,6 +90,7 @@ In this step, you'll create a new group and assign the `Hello World` app to it.
     ![Save](8-save.png)
 
 
+<br>
 
 ### Step 4: Assign app to Everyone role
 
@@ -107,6 +114,7 @@ In this step, you'll assign the `Hello World` app to the `Everyone` role. This i
 
 6. Click **Save**.
 
+<br>
 
 ### Step 5: Review your site
 
@@ -127,5 +135,11 @@ In this step, you'll assign the `Hello World` app to the `Everyone` role. This i
 
     ![View app](13-suppliers-app.png)
 
+<br>
 
+## Summary
+
+With this, you have successfully added your SAP Fiori app to your SAP Build Work Zone site.
+
+Continue to - [Exercise 3 - Access your site with SAP Mobile Start](../../ex3/README.md)
 
