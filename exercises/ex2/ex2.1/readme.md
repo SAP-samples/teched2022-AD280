@@ -32,7 +32,7 @@ SAP Business Application Studio is a development environment available on SAP Bu
  
 2. In the *Create a New Dev Space* screen, enter **WorkZoneContent** as name for your new workspace. Select **SAP Fiori** as the type of application you want to create. Then click **Create Dev Space**.
 
- ![Create Dev Space](images/5-CreateDevSpace.png)
+ ![Create Dev Space](images/5a-CreateDevSpace.png)
  
  > The dev space is in status **STARTING**. Wait until it is in status **RUNNING**. This might take a couple of minutes.
 
@@ -48,7 +48,7 @@ SAP Business Application Studio is a development environment available on SAP Bu
  
  2. The dev space opens and the Welcome tab appears.
 
- ![Welcome Tab](images/8-Welcomeg.png)
+ ![Welcome Tab](images/8-Welcome.png)
  
 <br>
 
