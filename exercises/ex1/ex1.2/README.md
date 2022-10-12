@@ -5,6 +5,7 @@ In this exercise , you will use the **Content Manager** to add an SAPUI5 app to 
 ## Prerequisites
  - You've already created the `JobCore` site.  
 
+<br>
 
 ## Step 1: Open Content Manager
 
@@ -13,6 +14,8 @@ In this exercise , you will use the **Content Manager** to add an SAPUI5 app to 
 >The **Content Manager** has two tabs: **My Content** where you can manually configure content items and view any other available content items, and the **Content Explorer** where you can explore exposed content from available channels, select the content, and add it to your own content.
 
   ![Open Content Manager](1-open-content-manager.png)
+
+<br>
 
 ### Step 2: Create and configure new app
 
@@ -64,6 +67,7 @@ In this exercise , you will use the **Content Manager** to add an SAPUI5 app to 
 
     ![Add visualization properties](5-vizualization-properties.png)
 
+<br>
 
 ### Step 3: View the app that you created
 
@@ -79,6 +83,7 @@ For end users to access the app in runtime, you must assign the app to a role. Y
 
 This is described in the following steps.
 
+<br>
 
 ### Step 4: Assign the app to the Everyone role
 
@@ -105,6 +110,7 @@ This is described in the following steps.
 
 5. Click **Save**.
 
+<br>
 
 ### Step 5: Create a group and assign the app to it
 
@@ -128,7 +134,7 @@ This is described in the following steps.
 
     ![Save group](9a-save-group.png)
 
-
+<br>
 
 ### Step 6: Review the site
 
@@ -148,4 +154,11 @@ This is described in the following steps.
 
 4. Click the `New Orders` tile to launch the app. You can click on the different items in the opened app on the left to view their details.
 
+<br>
+
+## Summary
+
 You have successfully added an app to your site. 
+
+Continue to - [Exercise 2.1 - Set Up SAP Business Application Studio for Development](../../ex2/ex2.1/README.md) to start building a simple app that you will then add to your site.
+
