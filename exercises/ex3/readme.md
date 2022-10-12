@@ -1,7 +1,8 @@
-# Access Your Site with SAP Mobile Start
+# Exercise 3: Access Your Site with SAP Mobile Start
 
 In this exercise, you will learn how to connect the SAP Mobile Start native app with your site. 
 
+<br>
 
 ### Step 1: Enable SAP Mobile Start in Site Settings
 
@@ -18,6 +19,7 @@ In this exercise, you will learn how to connect the SAP Mobile Start native app 
 
 3.  Click **Save** & get back to Site Directory
 
+<br>
 
 ### Step 2: Access QR-Codes in the User Settings
 
@@ -43,11 +45,13 @@ In this exercise, you will learn how to connect the SAP Mobile Start native app 
 
     (In the future it's planned to offer an option to have SAP Mobile Start deployed via MDM. With that, a specific site can be preconfigured and no QR-Code registration is needed.)
 
+<br>
 
 ### Step 3: Install SAP Mobile Start on your mobile device
 
 Use the Install QR-Code from Step 2 to install SAP Mobile Start on your Mobile Device. Alternatively, you can search for SAP Mobile Start in the respective App Stores.
 
+<br>
 
 ### Step 4: Onboard SAP Mobile Start
 
@@ -70,7 +74,7 @@ Use the Install QR-Code from Step 2 to install SAP Mobile Start on your Mobile D
 
     After completing the onboarding process, you will be directed to the initial **Start** screen.
 
-
+<br>
 
 ### Step 5: Try the App
 
@@ -86,5 +90,13 @@ Use the Install QR-Code from Step 2 to install SAP Mobile Start on your Mobile D
 
 5.	From the profile and settings you can choose **Sign Out** to return to the initial onboarding screen, in case you want to connect to a different site.
 
-6.  If you want to learn more about SAP Mobile Start & it's setup you can visit the [community page](https://community.sap.com/topics/mobile-experience/start).
 
+
+
+## Summary
+
+### Congratulations! You have successfully completed this end-to-end workshop for configuring SAP Build Work Zone, standard edition!
+
+If you want to learn more about SAP Build Work Zone, please visit the [SAP Build Work Zone community page](https://community.sap.com/topics/mobile-experience/start). More Information about SAP Mobile Start is available at the [SAP Mobile Start community page](https://community.sap.com/topics/mobile-experience/start).
+
+Go back to the [main document](../../README.md).
