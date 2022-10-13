@@ -14,6 +14,8 @@ In this exercise , you will use the **Content Manager** to add an SAPUI5 app to 
 >The **Content Manager** has two tabs: **My Content** where you can manually configure content items and view any other available content items, and the **Content Explorer** where you can explore exposed content from available channels, select the content, and add it to your own content.
 
   ![Open Content Manager](1-open-content-manager.png)
+  
+  > If you want, you can click the *Expand* icon ![Expand Icon](5-Expand.png) to see the names of the menu entries in addition to the icons.
 
 <br>
 
