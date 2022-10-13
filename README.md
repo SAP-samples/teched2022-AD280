@@ -8,7 +8,7 @@ This repository contains the material for the SAP TechEd 2022 session called Ses
 
 ## Overview
 
-This session introduces attendees to the creation of a site with SAP Build Work Zone, standard edition (formerly known as SAP Launchpad service ) in their free trial account. Attendees will learn how to consume federated content from an SAP S/4HANA systems and how to add a custom developed app to the site. Finally, they will consume your site on the SAP Mobile Start app.
+This workshop introduces attendees to the creation of a site with SAP Build Work Zone, standard edition (formerly known as SAP Launchpad service ) in their free trial account. Attendees will learn how to consume federated content from an SAP S/4HANA systems and how to add a custom developed app to the site. Finally, they will consume their site on the SAP Mobile Start app.
 
 Before getting started with the exercises, please take a look at the following [general overview of SAP Build Work Zone](intro/overview.md).
 
@@ -27,8 +27,6 @@ For the last exercise, you will also need a mobile phone (iOS or Android) capabl
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
-
 - [Exercise 0 - Set up SAP Launchpad service in your trial account](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-getting-started.html)
 
 - Exercise 1 - Create your first launchpad site and add a URL app to the site
@@ -44,10 +42,6 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 - [Exercise 3 - Access your site with SAP Mobile Start](exercise/ex3/readme.md)
 
 
-
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
 
 ## How to obtain support
 
