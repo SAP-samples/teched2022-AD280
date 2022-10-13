@@ -17,11 +17,11 @@ When you access the admin environment, the Site Directory is in focus. From here
 
 1. Click **Create Site**.
 
-    ![Create site](1a-create-new-site.png)
+    ![Create site](../ex1.2/images/1a-create-new-site.png)
 
 2. Enter `JobCore` as the site name and click **Create**.
 
-    ![Name site](2a-name-site.png)
+    ![Name site](../ex1.2/images//2a-name-site.png)
 
 You've just created a site called `JobCore`.
 
@@ -35,7 +35,7 @@ When you create a site, you are directed to the **Site Settings** screen where y
 
 Navigate back to the **Site Directory** to view the site tile.
 
-  ![Navigate to site directory](3a-to-site-directory.png)
+  ![Navigate to site directory](../ex1.2/images//3a-to-site-directory.png)
 
 <br>
 
