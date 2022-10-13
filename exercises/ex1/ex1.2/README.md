@@ -3,11 +3,11 @@
 In this exercise , you will use the **Content Manager** to add an SAPUI5 app to your  site. You will also create a group and assing the app to it.
 
 ## Prerequisites
- - You've already created the `JobCore` site.  
+ - You have already created the `JobCore` site.  
 
 <br>
 
-## Step 1: Open Content Manager
+### Step 1: Open Content Manager
 
  Click the Content Manager icon in the side panel to open the **Content Manager**.
 
@@ -36,13 +36,13 @@ In this exercise , you will use the **Content Manager** to add an SAPUI5 app to 
 
     * **URL**:  `https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html`
 
-    ![Enter app properties](images/images/5b-app-properties.png)
+    ![Enter app properties](images/5b-app-properties.png)
 
     >When working in your own environment, it's better to integrate SAPUI5 apps using the HTML5 apps repository. This configuration allows you to better manage your content in the Dev-QA-Prod lifecycle. You will see how to do this in exercise 2.
 
 3. Click the **NAVIGATION** tab to specify the intent of your app.
 
-    ![Go to Navigation](images/images/5c-go-to-navigation.png)
+    ![Go to Navigation](images/5c-go-to-navigation.png)
 
     > The unique combination of a semantic object and an action is called an intent. It is used to define navigation to an application.
 
@@ -122,10 +122,13 @@ This is described in the following steps.
 
 ### Step 5: Create a group and assign the app to it
 
+<br>
 
 >A group is a set of one or more apps displayed together in a launchpad site.
  Assigning apps to groups, makes them visible to the user.
    ![Group](images/13a-group.png)
+   
+<br>
 
 1. Click **+ New** and select **Group** to create a group.
 
@@ -164,7 +167,7 @@ This is described in the following steps.
 
    ![View app](images/22a-new-orders-app.png)
 
-In the app, click on the any categories on the left to view product offerings.
+In the app, click on any category on the left to view product offerings.
 
 <br>
 
