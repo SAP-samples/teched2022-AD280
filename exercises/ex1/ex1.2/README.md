@@ -13,9 +13,9 @@ In this exercise , you will use the **Content Manager** to add an SAPUI5 app to 
 
 >The **Content Manager** has two tabs: **My Content** where you can manually configure content items and view any other available content items, and the **Content Explorer** where you can explore exposed content from available channels, select the content, and add it to your own content.
 
-  ![Open Content Manager](1-open-content-manager.png)
+  ![Open Content Manager](images/1a-open-content-manager.png)
   
-  > If you want, you can click the *Expand* icon ![Expand Icon](5-Expand.png) to see the names of the menu entries in addition to the icons.
+  > If you want, you can click the *Expand* icon ![Expand Icon](images/5a-Expand.png) to see the names of the menu entries in addition to the icons.
 
 <br>
 
@@ -23,7 +23,7 @@ In this exercise , you will use the **Content Manager** to add an SAPUI5 app to 
 
 1.  Click **+ New** and select **App** from the list.  
 
-    ![Add an app](2-add-app.png)
+    ![Add an app](images/2a-add-app.png)
 
 
     The app editor opens with the **PROPERTIES** tab in focus.
@@ -36,7 +36,7 @@ In this exercise , you will use the **Content Manager** to add an SAPUI5 app to 
 
     * **URL**:  `https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html`
 
-    ![Enter app properties](3-add-app-properties.png)
+    ![Enter app properties](images/3a-add-app-properties.png)
 
     >When working in your own environment, it's better to integrate SAPUI5 apps using the HTML5 apps repository. This configuration allows you to better manage your content in the Dev-QA-Prod lifecycle. You will see how to do this in exercise 2.
 
@@ -50,7 +50,7 @@ In this exercise , you will use the **Content Manager** to add an SAPUI5 app to 
 
     * **Action**: `Display`
 
-    ![Add navigation properties](4-navigation-properties.png)
+    ![Add navigation properties](images/4a-navigation-properties.png)
 
 5. Click the **VISUALIZATION** tab.
 
@@ -67,19 +67,19 @@ In this exercise , you will use the **Content Manager** to add an SAPUI5 app to 
       On the right, you can see a preview of the tile with all the properties you entered.
       Click **Save**.
 
-    ![Add visualization properties](5-vizualization-properties.png)
+    ![Add visualization properties](images/6a-vizualization.png)
 
 <br>
 
 ### Step 3: View the app that you created
 
-Click the Content Manager icon in the left side panel to navigate back to the **Content Manager**.
+Click the **Back** icon to navigate back to the *Content Manager*. You could also click the Content Manager icon in the left side panel.
 
-  ![Go back to Content Manager](6-back-to-content-manager.png)
+  ![Go back to Content Manager](images/7a-back-to-content-manager.png)
 
 You can see your app in the list of content items:
 
-![View app in content manager list](7-view-app.png)
+![View app in content manager list](images/8a-view-app.png)
 
 For end users to access the app in runtime, you must assign the app to a role. You also need to assign the app to a group so that it is visible in the site.
 
@@ -90,15 +90,15 @@ This is described in the following steps.
 ### Step 4: Assign the app to the Everyone role
 
 
->Content assigned to the `Everyone` role is visible to all users.
+>Content assigned to the `Everyone` role is visible to all users. In addition, the `Everyone` role is by default assigned to every site, so that you do not need to assign the role to the site to make its content available.
 
 1. Click the **Everyone** role.
 
-    ![Select everyone role](10-everyone-role.png)
+    ![Select everyone role](images/9a-everyone-role.png)
 
 2. Click **Edit**.
 
-    ![Click Edit](11-edit.png)
+    ![Click Edit](images/10a-edit.png)
 
 3. Click the search box in the **Assignments** panel on the right. Any available apps are shown in the list below.
 
@@ -106,11 +106,15 @@ This is described in the following steps.
 
 4. In the **Results** list, click the **+** icon next to the `New Orders` app to assign this role to your app.
 
-    ![Assign role to app](12-assign-role.png)
+    ![Assign role to app](images/11a-assign-role.png)
 
     You will see that the icon changes.
 
 5. Click **Save**.
+
+    ![Save](images/12a-save.png)
+    
+6. Click the **Back** icon to navigate back to the *Content Manager*. 
 
 <br>
 
@@ -119,22 +123,21 @@ This is described in the following steps.
 
 >A group is a set of one or more apps displayed together in a launchpad site.
  Assigning apps to groups, makes them visible to the user.
+   ![Group](images/13a-group.png)
 
-1. Click the Content Manager icon to navigate back to the **Content Manager**.
+1. Click **+ New** and select **Group** to create a group.
 
-2. Click **+ New** and select **Group** to create a group.
-
-    ![Add a new group](8-add-group.png)
+    ![Add a new group](images/14a-new-group.png)
 
 2. Enter `Purchasing` as the **Title** and in the **Assignments** panel, click inside the search box on the right of the screen, to show all available apps. You should see `New Orders`.
 
 3. In the **Results** list, click **+** to assign the `New Orders` app to your group.
 
-    ![Configure group properties](9-configure-group.png)
+    ![Configure group properties](images/17a-configure-group.png)
 
 4. Click **Save**.
 
-    ![Save group](9a-save-group.png)
+    ![Save group](images/18a-save.png)
 
 <br>
 
@@ -142,19 +145,24 @@ This is described in the following steps.
 
 1. Click the Site Directory icon in the left panel to open the **Site Directory**.
 
-    ![Open Site Directory](13-open-site-directory.png)
+    ![Open Site Directory](images/19a-to-site-directory.png)
 
 2. On the `JobCore` tile, click the **Go to site** icon.
 
-    ![Go to site](14-go-to-site.png)
+    ![Go to site](images/20a-open-site.png)
 
 3. This is what you will see:
 
-    ![View site](15-view-site.png)
+    ![View site](images/21a-JobCore-site.png)
 
     Your `New Orders` app is displayed in the `Purchasing` group.
+    
 
-4. Click the `New Orders` tile to launch the app. You can click on the different items in the opened app on the left to view their details.
+4. Click the `New Orders` tile to launch the app. 
+
+   ![View app](images/22a-new-orders-app.png)
+
+In the app, click on the any categories on the left to view product offerings.
 
 <br>
 
