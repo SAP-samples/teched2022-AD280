@@ -11,15 +11,15 @@ In this exercise, you will learn how to connect the SAP Mobile Start native app 
 
 3.  Click the settings icon on the 'JobCore' tile to open the Site Settings.
 
-    ![Access site settings](images/1-edit-site.PNG)
+    ![Access site settings](images/1-edit-site.png)
 
 2.  Within the Site Settings make sure that SAP Mobile Start is enabled.
 
-    ![Enable Mobile Start flag in Site settings](images/2-mobile-start-yes.PNG)
+    ![Enable Mobile Start flag in Site settings](images/2-mobile-start-yes.png)
 
 3.  If it is not, click edit, set the SAP Mobile Start toggle to **YES**, then click **Save**.
 
-4. Get back to Site Directory using the back icon ![back](images/back.png).
+4. Get back to Site Directory using the back icon ![back](images/3-back.png).
 
 <br>
 
@@ -27,15 +27,15 @@ In this exercise, you will learn how to connect the SAP Mobile Start native app 
 
 1.  Open your Site via the **Go to site** icon on the **JobCore* tile.
 
-   ![Access site](images/4-go-to-site.PNG)
+    ![Access site](images/4-go-to-site.png)
 
 2.  On the site, open the user menu via the user initials on the top right. Then choose **Settings**.
 
-    ![Access User Settings](5-settings.PNG)
+    ![Access User Settings](images/5-settings.png)
 
 3.  In the Settings screen, choose the **SAP Mobile Start Application** tab.
 
-    ![SAP Mobile Start tab](6-sap-mobile-start.PNG)
+    ![SAP Mobile Start tab](images/6-sap-mobile-start.png)
 
     (If the option is not available make sure SAP Mobile Start is enabled in the Site Settings (Step 1), also refreshing the site might be required for your changes to become active.)
 
@@ -47,7 +47,7 @@ In this exercise, you will learn how to connect the SAP Mobile Start native app 
       2. **Register**:
       This QR-Code is used later within the SAP Mobile Start app to register it to your site.
 
-    ![QR Code Selection](launchpad-qr-codes.PNG)
+    ![QR Code Selection](images/7-qr-codes.png)
 
     (In the future it's planned to offer an option to have SAP Mobile Start deployed via MDM. With that, a specific site can be preconfigured and no QR-Code registration is needed.)
 
@@ -86,7 +86,8 @@ Use the Install QR-Code from Step 2 to install SAP Mobile Start on your Mobile D
 
 ### Step 5: Try the App
 
-    ![SAP Mobile Start Screens](mobile-start-navigation.PNG)
+
+    ![SAP Mobile Start Screens](images/mobile-start-navigation.png)
 
 1.	You can use the navigation icons on the bottom the move between the Start and the Application screen. The Start screen offers an overview for quick access to your most used apps. The Application screen lists all groups and apps of the site. If you set up SAP Task Center integration in your site, you will see an additional icon **To Do** on the bottom where you can find all your workflow items.
 
