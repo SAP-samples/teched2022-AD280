@@ -173,4 +173,4 @@ In the app, click on any category on the left to view product offerings.
 
 ## Summary
 
-You have successfully added an app to your site. In the SAP TechEd workshop, you will now see a demo how to consume federated content (roles with all their assigned apps, catalogs, groups, spaces and pages) from an SAP S/4HANA system. Go back to the [main exercise document](../../README.md) to learn more about content federation.
+You have successfully added an app to your site. In the SAP TechEd workshop, you will now see a demo how to consume federated content (roles with all their assigned apps, catalogs, groups, spaces and pages) from an SAP S/4HANA system. Go back to the [main exercise document](../../../README.md) to learn more about content federation.
