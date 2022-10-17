@@ -137,4 +137,4 @@ You've now been assigned to the `Launchpad_Admin` role collection and you can ac
 ## Summary
 
 You have now created a subscription to SAP Build Work Zone, standard edition, and assigned yourself the administrator role. 
-Continue to - [Exercise 2.3 - Build and Deploy your application ](../ex2.3/README.md)
+Continue to - [Exercise 1.1 - Create your first site ](../ex1/ex1.1/README.md)
