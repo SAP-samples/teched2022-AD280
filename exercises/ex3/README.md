@@ -11,13 +11,15 @@ In this exercise, you will learn how to connect the SAP Mobile Start native app 
 
 3.  Click the settings icon on the 'JobCore' tile to open the Site Settings.
 
-    !![Access site settings](site-manager-access-site-settings.PNG)
+    ![Access site settings](images/1-edit-site.PNG)
 
-2.  Within the Site Settings click the **Edit** button on the top right & make sure the toggle for SAP Mobile Start is enabled.
+2.  Within the Site Settings make sure that SAP Mobile Start is enabled.
 
-    ![Enable Mobile Start flag in Site settings](site-manager-mobile-start-flag.PNG)
+    ![Enable Mobile Start flag in Site settings](images/2-mobile-start-yes.PNG)
 
-3.  Click **Save** & get back to Site Directory
+3.  If it is not, click edit, set the SAP Mobile Start toggle to **YES**, then click **Save**.
+
+4. Get back to Site Directory using the back icon ![back](images/back.png).
 
 <br>
 
@@ -25,15 +27,19 @@ In this exercise, you will learn how to connect the SAP Mobile Start native app 
 
 1.  Open your Site via the **Go to site** icon on the **JobCore* tile.
 
-2.  On the site, open the user menu via the user icon on the top right. Then choose **Settings**.
+   ![Access site](images/4-go-to-site.PNG)
 
-    ![Access User Settings](launchpad-access-settings.PNG)
+2.  On the site, open the user menu via the user initials on the top right. Then choose **Settings**.
+
+    ![Access User Settings](5-settings.PNG)
 
 3.  In the Settings screen, choose the **SAP Mobile Start Application** tab.
 
+    ![SAP Mobile Start tab](6-sap-mobile-start.PNG)
+
     (If the option is not available make sure SAP Mobile Start is enabled in the Site Settings (Step 1), also refreshing the site might be required for your changes to become active.)
 
-    In this screen you can switch between two QR Codes via the toggle button:
+    In this screen you can select your type of device (Android or iOS) and switch between two QR Codes via the toggle button:
 
       1. **Install**:
       This QR-Code can be used to install the SAP Mobile Start app on your device. It's a direct link to the Apple app store page.
@@ -55,13 +61,15 @@ Use the Install QR-Code from Step 2 to install SAP Mobile Start on your Mobile D
 
 ### Step 4: Onboard SAP Mobile Start
 
-1.	Open the SAP Mobile Start app on your mobile device, press the **Scan** button and make sure to allow camera access.
+1.	Use the toggle in the *SAP Mobile Start Application* settings to switch to the **Register** QR-code. Scroll down if required.
+
+2. Open the SAP Start app on your mobile device, press the **Scan** button and make sure to allow camera access.
 
     (Below the scan button you will find the option to enter the demo mode. This will demonstrate how a fully configured launchpad site with the addition of SAP Task Center looks like.)
 
-2.	Next, use your device camera to scan the **Register QR-Code** in the launchpad user settings from Step 2. If the scan succeeded, you can continue with the onboarding process.
+2.	Next, use your device camera to scan the **Register QR-Code** in the launchpad user settings. If the scan succeeded, you can continue with the onboarding process.
 
-    ![Onboard SAP Mobile Start](mobile-start-onboarding.png)
+    ![Onboard SAP Mobile Start](images/mobile-start-onboarding.png)
 
 3.  Follow the guided onboarding process within the app:
 
@@ -80,7 +88,7 @@ Use the Install QR-Code from Step 2 to install SAP Mobile Start on your Mobile D
 
     ![SAP Mobile Start Screens](mobile-start-navigation.PNG)
 
-1.	You can use the navigation icons on the bottom the move between the Start and the Application screen. The Start screen offers an overview for quick access to your most used apps. The Application screen lists all groups and apps of the site.
+1.	You can use the navigation icons on the bottom the move between the Start and the Application screen. The Start screen offers an overview for quick access to your most used apps. The Application screen lists all groups and apps of the site. If you set up SAP Task Center integration in your site, you will see an additional icon **To Do** on the bottom where you can find all your workflow items.
 
 2.  Both screens the Start & Application screen have the notification icon and the user (settings) icon. Use them to access the notification section or the Profile and Settings page.
 
