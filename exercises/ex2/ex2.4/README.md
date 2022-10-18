@@ -46,7 +46,7 @@ Once you've deployed your SAPUI5 app to SAP BTP, it becomes available to add to 
 
 4. You'll see that your `Hello World` app that you've just created in SAP Business Application Studio, already exists in this provider. Select it and click **+ Add to My Content**.
 
-    !![Add app to My Content](images/6-add-hello-world.png)
+    ![Add app to My Content](images/6-add-hello-world.png)
 
 5. Click the **My Content** tab.
 
