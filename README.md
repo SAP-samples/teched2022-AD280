@@ -1,4 +1,4 @@
-# AD280 - A Beginning to End Workshop on Configuring SAP Launchpad Service
+# AD280 - A Beginning to End Workshop on Configuring SAP Build Work Zone, standard edition
 
 ![Title](Title.png)
 
