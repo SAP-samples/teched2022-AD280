@@ -4,7 +4,7 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called Session AD280 - A Beginning to End Workshop on Configuring SAP Launchpad Service.  
+This repository contains the material for the SAP TechEd 2022 session called Session AD280 - A Beginning to End Workshop on Configuring SAP Build Work Zone, standard edition.  
 
 ## Overview
 
