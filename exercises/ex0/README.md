@@ -85,7 +85,7 @@ Before you can access and use the service, you first need to subscribe to it.
 To be able to access the SAP Launchpad service, users must be assigned to the `Launchpad_Admin` role. In this step, you'll assign yourself to this role so that you can access the service and create a launchpad site.
 
 
-1. Click **Role Collections** from the side menu.
+1. Click **Security > Role Collections** from the side menu.
 
       ![Open role collections](10a-role-collections.png)
       
@@ -104,7 +104,7 @@ To be able to access the SAP Launchpad service, users must be assigned to the `L
     > You could also click on the role collection name to open its details.
     
 
-4. Click **Edit**
+4. Click **Edit**.
 
     ![Click Edit](13a-click-edit.png)
     
@@ -114,10 +114,10 @@ To be able to access the SAP Launchpad service, users must be assigned to the `L
     ![Add emails](14a-add-emails.png)
 
 
-You've now been assigned to the `Launchpad_Admin` role collection and you can access SAP Build Work Zone and carry out all your admin tasks.
+You've now been assigned to the `Launchpad_Admin` role collection and you can access SAP Build Work Zone, standard edition and carry out all your admin tasks.
 
 
-### Step 3: Access the SAP Build Work Zone standard
+### Step 3: Access SAP Build Work Zone standard
 
 1. From the side panel, click **Instances and Subscriptions**.
 
