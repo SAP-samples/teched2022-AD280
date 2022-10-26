@@ -6,6 +6,11 @@
 
 This repository contains the material for the SAP TechEd 2022 session called Session AD280 - A Beginning to End Workshop on Configuring SAP Build Work Zone, standard edition.  
 
+> **NOTE**: SAP Launchpad Service is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, standard edition**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q4%202022). 
+> Please be aware that some screenshots or systems in this Hands-on material might still contain the former name *SAP Launchpad Service*. 
+> ![SAP Build](Disclaimer.png)
+
+
 ## Overview
 
 This workshop introduces attendees to the creation of a site with SAP Build Work Zone, standard edition (formerly known as SAP Launchpad service ) in their free trial account. Attendees will learn how to consume federated content from an SAP S/4HANA systems and how to add a custom developed app to the site. Finally, they will consume their site on the SAP Mobile Start app.
