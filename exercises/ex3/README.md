@@ -87,7 +87,7 @@ Use the Install QR-Code from Step 2 to install SAP Mobile Start on your Mobile D
 ### Step 5: Try the App
 
 
-    ![SAP Mobile Start Screens](images/mobile-start-result.png)
+![SAP Mobile Start Screens](images/mobile-start-result.png)
 
 1.	You can use the navigation icons on the bottom the move between the Start and the Application screen. The Start screen offers an overview for quick access to your most used apps. The Application screen lists all groups and apps of the site. If you set up SAP Task Center integration in your site, you will see an additional icon **To Do** on the bottom where you can find all your workflow items.
 
