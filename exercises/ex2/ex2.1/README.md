@@ -46,9 +46,9 @@ SAP Business Application Studio is a development environment available on SAP Bu
  
  ![Access Dev Space](images/7-Running.png)
  
- 2. The dev space opens and the Welcome tab appears.
+ 2. The dev space opens and the *Get Started* tab appears.
 
- ![Welcome Tab](images/8-Welcome.png)
+ ![Welcome Tab](images/8a-Get-Started.png)
  
 <br>
 
