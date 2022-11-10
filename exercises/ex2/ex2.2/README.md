@@ -94,14 +94,14 @@ Using the app creation wizard you can at any point click the Back button to go b
     | A | Module name | **`helloworld`** |
     | B | Application title | **Hello World** |
     | C | Application namespace | **teched** |
-    | D | Description | **An empty Fiori application** |
+    | D | Description | **An empty SAPUI5 freestyle application** |
     | E | Project folder path | **`/home/user/projects/FioriDemo`** (default)|
     | F | Minimum SAPUI5 version | **1.102.1** (default) |
     | G | Add deployment configuration | **Yes** (default)|
     | H | Add FLP configuration | **Yes** |
     | I | Configure advanced options | **No** (default) |
 
-    ![Project Attributes](images/n12-attributes.png)
+    ![Project Attributes](images/n12a-attributes.png)
     
 7. For **Deployment Configuration**, keep the defaults **Cloud Foundry** and *Destination Name* **None**. Click **Next**.
 
