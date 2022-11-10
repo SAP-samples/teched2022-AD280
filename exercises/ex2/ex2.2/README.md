@@ -2,17 +2,22 @@
 
 In this exercise, you will develop a simple SAPUI5 freestyle application, adhering to SAP Fiori design guidelines. The flow consists of two parts:
 
-1. Running a wizard that creates a multi-target application (MTA) project that is configured to use Managed Application Router. An MTA is required in order to create the deployment artifact for SAP BTP, Cloud Foundry environment. If you are not familiar with the MTA concepts, read this [guide](https://www.sap.com/documents/2016/06/e2f618e4-757c-0010-82c7-eda71af511fa.html). Creating the MTA project upfront does not take long and will allow you to save time later in the exercise.
-
+1. Running a wizard that creates a multi-target application (MTA) project that is configured to use Managed Application Router. 
 2. Creating an SAPUI5 app from a template within this project and preview it.
 
 <br>
 
 ### Step 1: Create new Multitarget Application project
 
-1. The search window at the top-center of the SAP Business Application Studio window allows users to easily search for files, folders, or commands. To search for a command put a **>** into the search field. Alternatively, you could use the menu icon on the top left to access the command palette.
+> An MTA is required in order to create the deployment artifact for SAP BTP, Cloud Foundry environment. If you are not familiar with the MTA concepts, read this [guide](https://www.sap.com/documents/2016/06/e2f618e4-757c-0010-82c7-eda71af511fa.html). Creating the MTA project upfront does not take long and will allow you to save time later in the exercise.
 
-    ![Open command palette](images/n01-search-command.png)
+The search window on top of the page gives you easy access to search across your files. It also allows you to search for commands. 
+
+1. Enter **>** into the Search window to search for a command. 
+
+   ![Open command palette](images/n01-search-command.png)
+
+> You could also access the command palette via the **menu** icon on the top left of the screen and **View > Command Palette** 
 
 2.  Type `fiori: open` in the search field and select the **Fiori: Open CF Application Router Generator** command.
 
@@ -63,29 +68,29 @@ Your workspace is an entity containing your project's settings, debug configurat
 
 <br>
 
-## Step 3: Create an SAPUI5 app from a template
+### Step 3: Create an SAPUI5 app from a template
 
 Using the app creation wizard you can at any point click the Back button to go back to the previous step, or click a specific wizard step to go back to that step.
 
 1. In the *Get Started* tab click **Start from template**.
 
-![Start from Template](images/n07a-start-from-template.png)
+   ![Start from Template](images/n07a-start-from-template.png)
 
 2. Select the **SAP Fiori Application** tile, and click **Start**.
 
-![SAP Fiori](images/n08-fiori-app.png)
+   ![SAP Fiori](images/n08-fiori-app.png)
 
 3. In the *Template Selection* screen, select *Application Type* **SAPUI5 freestyle** from the drop-down, then select the template **SAPUI5 Appliction** and click **Next**.
 
-![SAPUI5 Freestyle](images/n09-sapui5-app.png)
+   ![SAPUI5 Freestyle](images/n09-sapui5-app.png)
 
 4. For *Data Source and Service Selection*, select **None** from the drop-down as for this simple app, you will not consume any data from a backend system. Then click **Next**.
 
-![Select Data Source](images/n10-data-source.png)
+   ![Select Data Source](images/n10-data-source.png)
 
 5. In the next step, you can change the name of the view. You can simply keep View1 here and click **Next**.
 
-![View name](images/n11-view-name.png)
+   ![View name](images/n11-view-name.png)
 
 6. Select the following **Project Attributes**, then click **Next**.
 
@@ -101,11 +106,11 @@ Using the app creation wizard you can at any point click the Back button to go b
     | H | Add FLP configuration | **Yes** |
     | I | Configure advanced options | **No** (default) |
 
-    ![Project Attributes](images/n12a-attributes.png)
+   ![Project Attributes](images/n12a-attributes.png)
     
 7. For **Deployment Configuration**, keep the defaults **Cloud Foundry** and *Destination Name* **None**. Click **Next**.
 
-![Deployment Settings](images/n13-deployment.png)
+   ![Deployment Settings](images/n13-deployment.png)
 
 8. Finally, in the **Fiori Launchpad Configuration** screen, select the following, and click **Finish**.
 
