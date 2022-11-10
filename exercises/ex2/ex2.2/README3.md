@@ -79,23 +79,23 @@ Using the app creation wizard you can at any point click the Back button to go b
 
 1. In the *Get Started* tab click **Start from template**.
 
-![Start from Template](images/1b-StartfromTemplate.png)
+![Start from Template](images/n07a-start-from-template.png)
 
 2. Select the **SAP Fiori Application** tile, and click **Start**.
 
-![SAP Fiori](images/2b-SAPFioriApp.png)
+![SAP Fiori](images/n08-fiori-app.png)
 
-3. For *Floorplan Selection*, select *Application Type* **SAPUI5 freestyle** from the drop-down, then select the floorplan **SAPUI5 Appliction** and click **Next**.
+3. For *Template Selection* screen, select *Application Type* **SAPUI5 freestyle** from the drop-down, then select the template **SAPUI5 Appliction** and click **Next**.
 
-![SAPUI5 Freestyle](images/3-SAPUI5App.png)
+![SAPUI5 Freestyle](images/n09-sapui5-app.png)
 
-4. For *Data Source and Service Selection*, select **None** from the drop-down as for this simple app, you will not consume any data from a backend system. Then click **Next**.
+4. In the *Data Source and Service Selection* screen, select **None** from the *Data Source* drop-down as for this simple app, you will not consume any data from a backend system. Then click **Next**.
 
-![Select Data Source](images/4-DataSource.png)
+![Select Data Source](images/n10-data-source.png)
 
 5. In the next step, you can change the name of the view. You can simply keep View1 here and click **Next**.
 
-![View name](images/5-ViewName.png)
+![View name](images/n11-view-name,.png)
 
 6. For **Project Attributes**, select the following, and click **Next**.
 
@@ -129,7 +129,7 @@ Using the app creation wizard you can at any point click the Back button to go b
     ![Launchpad configuration](images/8-LaunchpadConfig.png)
 
 
-9. Wait until the installation of project dependencies is completed. A notification that "The project has been generated" appears at the bottom right of the screen, The **Application Information** tab is opened, and the files and project structure in the **Explorer** view are updated.
+9. Wait until the installation of project dependencies is completed. This can take some minutes. A notification that "The project has been generated" appears at the bottom right of the screen, The **Application Information** tab is opened, and the files and project structure in the **Explorer** view are updated.
     
     ![application generated](images/10a-Project.png)
 
