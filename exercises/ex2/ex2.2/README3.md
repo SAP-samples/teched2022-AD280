@@ -111,11 +111,11 @@ Using the app creation wizard you can at any point click the Back button to go b
     | H | Add FLP configuration | **Yes** |
     | I | Configure advanced options | **No** (default) |
 
-    ![Project Attributes](images/6a-Attributes.png)
+    ![Project Attributes](images/n12-attributes.png)
     
-7. For **Deployment Configuration**, keep the defaults **Cloud Foundry** and *Destination Name* **None** and **Yes** for using the managed app router, as you will not use a backend system for consuming data. Click **Next**.
+7. For **Deployment Configuration**, keep the defaults **Cloud Foundry** and *Destination Name* **None**. Click **Next**.
 
-![Deployment Settings](images/7-DeploymentSettings.png)
+![Deployment Settings](images/n13-deployment.png)
 
 8. Finally, for **Fiori Launchpad Configuration**, select the following, and click **Finish**.
 
@@ -126,12 +126,12 @@ Using the app creation wizard you can at any point click the Back button to go b
     | B | Title | **My Hello World** |
     | B | Subtitle (optional) | Add a subtitle of your choice |
 
-    ![Launchpad configuration](images/8-LaunchpadConfig.png)
+    ![Launchpad configuration](images/n14-flp-config.png)
 
 
-9. Wait until the installation of project dependencies is completed. This can take some minutes. A notification that "The project has been generated" appears at the bottom right of the screen, The **Application Information** tab is opened, and the files and project structure in the **Explorer** view are updated.
+9. Wait until the installation of project dependencies is completed. This can take some minutes. A notification that "The project has been generated" appears at the bottom right of the screen, The **Application Info** tab is opened, and the files and project structure in the **Explorer** view are updated.
     
-    ![application generated](images/10a-Project.png)
+    ![application generated](images/n15-project.png)
 
 <br>
 
@@ -139,27 +139,21 @@ Using the app creation wizard you can at any point click the Back button to go b
 
 To test your app, you can now run it locally within SAP Business Application Studio.
 
-1.	Click the **Run Configurations** view button to open the `Run Configurations` view. A set of run configuration that were created as part of the app generation are presented.
+1.	Click the **Preview Application** tile on the Application Information.
 
-    ![Open Run Configurations](images/10b-RunConfig.png)
+    ![Preview Apps](images/n16-preview-app.png)
 
-2.	Click the **Play** icon of the **`Start helloworld`** run configuration to run the app locally in the dev space.
+    Different options how to preview the application are displayed below the search window at the top-center of the SAP Business Application Studio window.
 
-    ![Play helloworld](images/11-RunConfig.png)
+2. Select the first option *start fiori...* which will open the new app in a sandbox launchpad shell.
 
-    >The **Debug** view opens, and the status bar color changes to orange, indicating that a debug session is in progress.
-
-    >A new tab opens in SAP Business Application Studio where you can see the log of the running app.
-
-    >You may be prompted to allow pop-ups or open the app in a new tab.
-
-    ![Debug View](images/12a-LocalRunPopUp.png)
+    ![Start-fiori](images/n17-start-options.png)
 
 3. A new browser tab opens showing the app. In this stage of the development, the app only shows a title.
 
-    >If the browser tab does not open, or a notification "You have exceeded the number of ports you can expose" appears at the bottom-right of the page, you may need to un-expose ports. Select the **Ports: `Unexpose`** option in the command palette (View | Find Command) to un-expose a port that is in an **[Active]** state. Repeat this procedure until no more than two ports are in **[Active]** state, and try again.
+> If the new tab does not open, this might be blocked in your browser. In this case, you will see a small message in the upper right corner with a link that you can click to allow pop-ups and new tabs opening.
 
-    ![App running locally](images/13-HelloWorld.png)
+    ![App running locally](images/n18-app-preview.png)
 
 <br>
 
