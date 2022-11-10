@@ -3,7 +3,7 @@
 To get started with building a site in SAP Build Work Zone standard, you must perform the required onboarding steps in the SAP Business Technology Platform cockpit.
 
 ## Prerequisites
-In this workshop, you will use the trial environment. If you do not have a trial account yet, you need to first register it using this link: [Create a trial account](https://www.sap.com/products/business-technology-platform/trial.html). Scroll down and click **Get trial now**.
+In this workshop, you will use the trial environment. If you do not have a trial account yet, you need to first register it. You can find a detailed description how to do this in this [tutorial](https://developers.sap.com/tutorials/hcp-create-trial-account.html). If you already have an SAP user, you can go to the [SAP BTP Trial Page](https://account.hanatrial.ondemand.com/trial/#/home/trial), log on there and follow the instructions.
  
 Note that you can also do this tutorial using a SAP BTP free plan option. To do this, please follow this tutorial: [Set Up SAP Launchpad Service Using the Free Tier Model for SAP BTP](cp-portal-cloud-foundry-setup-freetier).
 
