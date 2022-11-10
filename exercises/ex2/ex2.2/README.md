@@ -94,7 +94,7 @@ Using the app creation wizard you can at any point click the Back button to go b
     | A | Module name | **`helloworld`** |
     | B | Application title | **Hello World** |
     | C | Application namespace | **teched** |
-    | D | Description | **An empty SAPUI5 freestyle app** |
+    | D | Description | **An empty Fiori application** |
     | E | Project folder path | **`/home/user/projects/FioriDemo`** (default)|
     | F | Minimum SAPUI5 version | **1.102.1** (default) |
     | G | Add deployment configuration | **Yes** (default)|
@@ -129,27 +129,19 @@ Using the app creation wizard you can at any point click the Back button to go b
 
 To test your app, you can now run it locally within SAP Business Application Studio.
 
-1.	Click the **Run Configurations** view button to open the `Run Configurations` view. A set of run configuration that were created as part of the app generation are presented.
+1.	In the *Application Information* tab, click the **Preview Application** tile. A set of run configuration options display in the top-center of the screen.
 
-    ![Open Run Configurations](images/10b-RunConfig.png)
+    ![Preview App](images/n16-preview-app.png)
 
-2.	Click the **Play** icon of the **`Start helloworld`** run configuration to run the app locally in the dev space.
+2.	Select the first entry **`Start fiori run...`** to run the app locally in a sandbox launchpad shell.
 
-    ![Play helloworld](images/11-RunConfig.png)
+    ![Start helloworld](images/n17-start-options.png)
 
-    >The **Debug** view opens, and the status bar color changes to orange, indicating that a debug session is in progress.
+3. A new browser tab opens showing the app. As you did not add any content, the app only shows a title.
 
-    >A new tab opens in SAP Business Application Studio where you can see the log of the running app.
+    >If your browser does not allow opening a new tab, you may see a message in the upper left corner with a link where you can allow opening a new tab.
 
-    >You may be prompted to allow pop-ups or open the app in a new tab.
-
-    ![Debug View](images/12a-LocalRunPopUp.png)
-
-3. A new browser tab opens showing the app. In this stage of the development, the app only shows a title.
-
-    >If the browser tab does not open, or a notification "You have exceeded the number of ports you can expose" appears at the bottom-right of the page, you may need to un-expose ports. Select the **Ports: `Unexpose`** option in the command palette (View | Find Command) to un-expose a port that is in an **[Active]** state. Repeat this procedure until no more than two ports are in **[Active]** state, and try again.
-
-    ![App running locally](images/13-HelloWorld.png)
+    ![App running locally](images/n18-app-preview.png)
 
 <br>
 
