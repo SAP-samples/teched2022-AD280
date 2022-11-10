@@ -75,7 +75,7 @@ Using the app creation wizard you can at any point click the Back button to go b
 
 ![SAP Fiori](images/n08-fiori-app.png)
 
-3. For *Template Selection*, select *Application Type* **SAPUI5 freestyle** from the drop-down, then select the template **SAPUI5 Appliction** and click **Next**.
+3. In the *Template Selection* screen, select *Application Type* **SAPUI5 freestyle** from the drop-down, then select the template **SAPUI5 Appliction** and click **Next**.
 
 ![SAPUI5 Freestyle](images/n09-sapui5-app.png)
 
@@ -87,7 +87,7 @@ Using the app creation wizard you can at any point click the Back button to go b
 
 ![View name](images/n11-view-name.png)
 
-6. For **Project Attributes**, select the following, and click **Next**.
+6. Select the following **Project Attributes**, then click **Next**.
 
     | Step | Parameter | Value |
     |:-----|:----------|:------|
@@ -107,7 +107,7 @@ Using the app creation wizard you can at any point click the Back button to go b
 
 ![Deployment Settings](images/n13-deployment.png)
 
-8. Finally, for **Fiori Launchpad Configuration**, select the following, and click **Finish**.
+8. Finally, in the **Fiori Launchpad Configuration** screen, select the following, and click **Finish**.
 
     | Step | Parameter | Value |
     |:-----|:----------|:------|
