@@ -9,61 +9,50 @@ In this exercise you will learn:
 ### Step 1: Build the application
 
 
-1. Go back to the **Explorer** pane.
+1. Go back to the tab with the **SAP Business Application Studio** open.
 
-![Go to Explorer](images/1-go-to-explorer.png)
+2. In the folder structure of your project on the left, right-click the `mta.yaml` file and select **Build MTA Project**.
 
-2. Right-click the `mta.yaml` file and select **Build MTA Project**.
-
-> You can collapse the *Open Editors* area for a better overview. 
-
-![build mta](images/2-build-mta.png)
+![build mta](images/n01-build-mta.png)
 
 > The build process creates a multi-target archive (`MTAR`) file in your project that packages all the project modules for deployment. 
 > You can find the `MTAR` file in the `FioriDemo/mta_archives` folder.
 
-![terminal mbt build results](images/2a-result-build.png)
-
 <br>
 
-### Step 2: Set Cloud Foundry preferences
+### Step 2: Deploy your application to Cloud Foundry
 
-Before you deploy your new application, login to Cloud Foundry and select the target account to which you want to deploy the application.
+1. Open the **mta_archives** folder, right-click the **FioriDemo_0_0_1.mtar** file and select **Deploy MTA Archive**.
 
-1. In the menu bar, select **View | Find Command** to open the **command palette**.
+> Before you deploy your new application, login to Cloud Foundry and select the target account to which you want to deploy the application. Therefore, a **Cloud Foundry Sign In** tab opens.
 
-2. Select the command **CF: Login to cloud foundry**.
+![deploy mtar](images/n02-deploy.png)
 
-    > Type `login` to filter commands.
+2. If necessary, close the *Terminal* to see the full Sign in tab.
 
-    ![Command Palette-Login to CF](images/3-find-deploy.png)
+![close terminal](images/n03-close-terminal.png)
 
-3. A **Cloud Foundry Sign In** tab opens in SAP Business Application Studio. Select the API endpoint, provide your credentials, and click **Sign in**.
+3. Select the API endpoint, provide your credentials, and click **Sign in**.
 
     ![Cloud Foundry Login dialog](images/4-sign-in.png)
+    
+    > If you are not sure which API endpoint, Cloud Foundry organization, and Cloud Foundry space is correct, you can find this information in the *Overview* screen of the SAP BTP Cockpit.
+    > 
+    > ![Cloud Foundry Login dialog](images/n05-sign-in.png)
 
 4. Select the Cloud Foundry organization, Cloud Foundry space, and click **Apply**.
 
-    ![Cloud Foundry Login dialog](images/5-select-target.png)
+    ![Cloud Foundry Login dialog](images/n06-select-org.png)
 
-    > A *The Organization and Space have been set* notification appears at the bottom-right of your screen.
+    > A *The Organization and Space have been set* notification appears at the bottom-right of your screen and the deployment to the space you are connected to starts starts automatically. You can follow the deployment progress in the **Terminal** console at the bottom of your screen.
 
+    ![Cloud Foundry Login dialog](images/n07-org-set.png)
 
-<br>
+5. Wait for the deployment to complete.
 
-### Step 3: Deploy your application to SAP BTP, Cloud Foundry environment
+    >The deployment process is usually quite fast. When the deployment process is complete, the notifications **Process finished.** and **Terminal will be reused by tasks.** will appear at the bottom of the **Terminal** console.
 
-1. Right-click the `mtar` file and select **Deploy MTA Archive**.
-
-    ![deploy mtar](images/6-deploy.png)
-
-    >The application deployment to the space you are connected to starts and a notification appears. You can follow the deployment progress in the **Task: Deploy** console at the bottom of your screen.
-
-3. Wait for the deployment to complete.
-
-    >The deployment process can take 1-2 minutes. When the deployment process is complete, the notifications **Process finished.** and **Terminal will be reused by tasks.** will appear at the bottom of the **Task: Deploy** console.
-
-    > ![deploy success](images/7-deploy-success.png)
+    > ![deploy success](images/n08-deploy-finished.png)
 
     >You can also find your deployed applications in the SAP BTP Cockpit in the HTML5 Applications area and launch them from there.
     >
