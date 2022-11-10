@@ -12,17 +12,21 @@ In this exercise, you will develop a simple SAPUI5 freestyle application, adheri
 
 > An MTA is required in order to create the deployment artifact for SAP BTP, Cloud Foundry environment. If you are not familiar with the MTA concepts, read this [guide](https://www.sap.com/documents/2016/06/e2f618e4-757c-0010-82c7-eda71af511fa.html). Creating the MTA project upfront does not take long and will allow you to save time later in the exercise.
 
-1. Click the **menu** icon on the top left of the screen to open the menu and select **View > Command Palette** to get access to the available commands.
+The search window on top of the page gives you easy access to search across your files. It also allows you to search for commands. 
 
-    ![Open Command Palette](images/2c-command-palette.png)
+1. Enter **>** into the Search window to search for a command. 
+
+> You could also access the command palette via the **menu** icon on the top left of the screen and **View > Command Palette** 
+
+    ![Open Command Palette](images/n01-search-command.png)
 
 The command palette opens at the top-center of the SAP Business Application Studio window.
 
-3. Select the **Fiori: Open CF Application Router Generator** command in the command palette. Type `fiori: open` in the command palette text field to filter the commands.
+3. Type `fiori: open` in the command palette text field to filter the commands and select the **Fiori: Open CF Application Router Generator** command.
 
     >Filter the list of commands in the command palette by typing part of the command in the command palette text field.
 
-    ![Find CF Application Router Generator](images/02c-EnterFiori.png)
+    ![Find CF Application Router Generator](images/n02-fiori.png)
 
 4. The **Application Router Generator Wizard** tab is opened. For **Application Router Configuration**, select the following, and click **Finish**.
 
@@ -33,7 +37,7 @@ The command palette opens at the top-center of the SAP Business Application Stud
     | C | MTA Description | Can be left empty (default) |
     | D | Add route module | **Managed Approuter** |
 
-    ![Fill-in cf mta and approuter wizard](images/03c-CreateRoute.png)
+    ![Fill-in cf mta and approuter wizard](images/n03c-CreateRoute.png)
 
     >When end-users access an app in the Cloud Foundry environment, they actually access the Application Router first. The application router is used to serve static content, authenticate users, rewrite URLs, and forward or proxy requests to other micro services while propagating user information.
 
@@ -45,23 +49,27 @@ The command palette opens at the top-center of the SAP Business Application Stud
 
 <br>
 
-### Step 2: Open the project's workspace
+### Step 2: Add the project folder to a workspace
 
 Your workspace is an entity containing your project's settings, debug configurations, and task configurations. In SAP Business Application Studio, a workspace is created for you as part of the Project Creation wizard. You can choose to create a new workspace or for each project, or you can set up a multi-root environment. You can find out more about **Workspaces** in the SAP Business Application Studio [documentation](https://help.sap.com/viewer/9d1db9835307451daa8c930fbd9ab264/Cloud/en-US/0919ce1ca4a342628e49c0f5e9c8cdcf.html).
 
-1. In the menu bar, select **File | Open Workspace...** to open the **Open Workspace** dialog.
+1. Click the **menu** icon in the upper left corner and select **File | Add Folder to Workspace...** to open the **Add Folder to Workspace** dialog.
 
-    ![open workspace dialog](images/05-FileOpen.png)
+    ![add_folder dialog](images/n04c-add-to-workspace.png)
 
-2. The **Open Workspace** dialog is opened at the center of the SAP Business Application Studio window. Select the **`FioriDemo`** project within the **projects** folder, and click **Open**.
+2. The **Add Folder to Workspace** dialog is opened at the center of the SAP Business Application Studio window. Select **projects**.
 
-    ![open workspace dialog](images/06-FioriDemo.png)
+    ![open workspace dialog](images/n05-select-projects.png)
 
-3. SAP Business Application Studio reloads with the `FioriDemo` project open in its workspace. In the Explorer view you can see the `FioriDemo` project, its folder structure, and files.
+5.   In the projects folder, select the **`FioriDemo`** project and click **OK**.
+
+    ![Click OK to confirm](images/n06-confirm.png)
+
+3. SAP Business Application Studio reloads with the `FioriDemo` project open in a yet untitled workspace. In the Explorer view you can see the `FioriDemo` project, its folder structure, and files.
 
     >The status bar color changes to blue, indicating that a workspace is open.
 
-    ![open workspace dialog](images/07-SpaceOpen.png)
+    ![open workspace dialog](images/n07-untitled-workspace.png)
 
 <br>
 
@@ -69,7 +77,7 @@ Your workspace is an entity containing your project's settings, debug configurat
 
 Using the app creation wizard you can at any point click the Back button to go back to the previous step, or click a specific wizard step to go back to that step.
 
-1. In the *Welcome* tab click **Start from template**.
+1. In the *Get Started* tab click **Start from template**.
 
 ![Start from Template](images/1b-StartfromTemplate.png)
 
