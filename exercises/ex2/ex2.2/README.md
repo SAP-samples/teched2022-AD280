@@ -12,7 +12,7 @@ In this exercise, you will develop a simple SAPUI5 freestyle application, adheri
 
 1. In the menu bar, select **View | Find Command** to open the **command palette**.
 
-    ![Open command palette](images/01-FindCommand.png)
+    ![Open command palette](images/n01-search-command.png)
 
 2. The command palette is opened at the top-center of the SAP Business Application Studio window.
 
