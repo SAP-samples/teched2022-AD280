@@ -18,7 +18,7 @@ This workshop introduces attendees to the creation of a site with SAP Build Work
 Before getting started with the exercises, please take a look at the following [general overview of SAP Build Work Zone](intro/overview.md).
 
 The workshop consists of four main sections:
-1. Create your first site
+1. Create your first site and add one application to it
 2. Consume SAP S/4HANA Business content in the site (this part will be shown as a demo, but you can follow the [Enhance Your SAP Launchpad Site with Federated SAP S/4HANA Content tutorial](https://developers.sap.com/mission.launchpad-s4hana.html) to consume federated content from your own SAP S/4HANA trial system. Learn more about [content federation](intro/federation.md).
 3. Create your own custom developed app with the Business Application Studio and easily integrate it into your site. 
 Due to time constraints, you will only create a very simple app during the workshop. Alternatively, you can also do [this advanced exercise](https://developers.sap.com/tutorials/appstudio-fioriapps-create.html) instead and create an app that consumes data from a backend system. But note that you would first need to [create an account on the SAP Gateway demo system](https://developers.sap.com/tutorials/gateway-demo-signup.html) and then [connect your BTP trial to it](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-gateway-connection.html). This will take about 20 minutes longer.
