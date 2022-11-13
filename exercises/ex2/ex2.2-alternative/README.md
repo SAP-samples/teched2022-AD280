@@ -68,7 +68,7 @@ Using the app creation wizard you can at any point click the Back button to go b
     
     ![application generated](images/n10-open-folder-in-workspace.png)
     
- In case this takes longer, you can also open the folder from the left panel **Open Folder** and selecting the folder path as `/home/user/projects/` and choose **helloworld** from the drop down.
+ In case this takes longer or the popup doesn't appear, you can also open the folder from the left panel **Open Folder** and selecting the folder path as `/home/user/projects/` and choose **helloworld** from the drop down.
 
 ![application generated](images/n10a-alternative-open-folder.png)
 
@@ -78,20 +78,32 @@ Using the app creation wizard you can at any point click the Back button to go b
 
 To test your app, you can now run it locally within SAP Business Application Studio.
 
-1.	In the *Application Information* tab, click the **Preview Application** tile. A set of run configuration options display in the top-center of the screen.
+1.	In the left *Explorer* panel, right-click on the **webapp** folder and select **Preview Application** from the context menu.
 
-    ![Preview App](images/n16-preview-app.png)
+    ![Preview App](images/n12-preview-app.png)
 
 2.	Select the first entry **`Start fiori run...`** to run the app locally in a sandbox launchpad shell.
 
-    ![Start helloworld](images/n17-start-options.png)
+    ![Start helloworld](images/n13-select-run-command.png)
 
-3. A new browser tab opens showing the app. As you did not add any content, the app only shows a title.
+3. A new browser tab opens showing a folder structure. Select the **test/** folder.
 
     >If your browser does not allow opening a new tab, you may see a message in the upper left corner with a link where you can allow opening a new tab.
 
-    ![App running locally](images/n18-app-preview.png)
+    ![browse to flp sandbox](images/n15-select-test-folder.png)
 
+4. In the **text** folder you can now select **flpSandbox.html**. 
+   
+   ![select flp lauchpad](images/n16-select-sandbox-html.png)
+
+5. This will open the launchpad sandbox, where you can see the tile with title **Hello World**. Click on this tile.
+   
+   ![select flp lauchpad](images/n17-select-tile-hello-world.png)
+
+6. You should now see the application with header titlew as *Hello World*. You don't see any other content since we did not add any other UI elements to the content area.
+
+   ![select flp lauchpad](images/n18-preview-app.png)
+   
 <br>
 
 ## Summary
