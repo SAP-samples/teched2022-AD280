@@ -86,22 +86,9 @@ To test your app, you can now run it locally within SAP Business Application Stu
 
     ![Start helloworld](images/n13-select-run-command.png)
 
-3. A new browser tab opens showing a folder structure. Select the **test/** folder.
+3. You should now see the application with header titlew as *Hello World*. You don't see any other content since we did not add any other UI elements to the content area.
 
-    >If your browser does not allow opening a new tab, you may see a message in the upper left corner with a link where you can allow opening a new tab.
-
-    ![browse to flp sandbox](images/n15-select-test-folder.png)
-
-4. In the **text** folder you can now select **flpSandbox.html**. 
-   
-   ![select flp lauchpad](images/n16-select-sandbox-html.png)
-
-5. This will open the launchpad sandbox, where you can see the tile with title **Hello World**. Click on this tile.
-   
-   ![select flp lauchpad](images/n17-select-tile-hello-world.png)
-
-6. You should now see the application with header titlew as *Hello World*. You don't see any other content since we did not add any other UI elements to the content area.
-
+ >If your browser does not allow opening a new tab, you may see a message in the upper left corner with a link where you can allow opening a new tab.
    ![select flp lauchpad](images/n18-preview-app.png)
    
 <br>
