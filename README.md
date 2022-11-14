@@ -40,7 +40,7 @@ For the last exercise, you will also need a mobile phone (iOS or Android) capabl
 
 - Exercise 2 - Integrate a custom developed SAPUI5 app into your site
     - [Exercise 2.1 - Set Up SAP Business Application Studio for Development](exercises/ex2/ex2.1/README.md)
-    - [Exercise 2.2 - Create an SAP Fiori App Using SAP Business Application Studio](exercises/ex2/ex2.2-alternate/README.md)
+    - [Exercise 2.2 - Create an SAP Fiori App Using SAP Business Application Studio](exercises/ex2/ex2.2-alternative/README.md)
     - [Exercise 2.3 - Build and Deploy Your SAP Fiori App to SAP Business Technology Platform](exercises/ex2/ex2.3/README.md)
     - [Exercise 2.4 - Integrate Your SAPUI5 App into Your Launchpad Site](exercises/ex2/ex2.4/README.md)
 
