@@ -17,6 +17,8 @@ This workshop introduces attendees to the creation of a site with SAP Build Work
 
 Before getting started with the exercises, please take a look at the following [general overview of SAP Build Work Zone](intro/overview.md).
 
+> ![SAP Build Work Zone](SAP_Build_Work_Zone.png)
+
 The workshop consists of four main sections:
 1. Create your first site and add one application to it
 2. Consume SAP S/4HANA Business content in the site (this part will be shown as a demo, but you can follow the [Enhance Your SAP Launchpad Site with Federated SAP S/4HANA Content tutorial](https://developers.sap.com/mission.launchpad-s4hana.html) to consume federated content from your own SAP S/4HANA trial system. Learn more about [content federation](intro/federation.md).
