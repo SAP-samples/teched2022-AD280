@@ -89,6 +89,7 @@ To test your app, you can now run it locally within SAP Business Application Stu
 3. You should now see the application with header titlew as *Hello World*. You don't see any other content since we did not add any other UI elements to the content area.
 
  >If your browser does not allow opening a new tab, you may see a message in the upper left corner with a link where you can allow opening a new tab.
+   
    ![select flp lauchpad](images/n18-preview-app.png)
    
 <br>
