@@ -10,14 +10,14 @@ This repository contains the material for the SAP TechEd 2022 session called Ses
 > Please be aware that some screenshots or systems in this Hands-on material might still contain the former name *SAP Launchpad Service*. 
 > ![SAP Build](Disclaimer.png)
 
+> Product names and announced changes
+> ![SAP Build Work Zone](SAP_Build_Work_Zone.png)
 
 ## Overview
 
 This workshop introduces attendees to the creation of a site with SAP Build Work Zone, standard edition (formerly known as SAP Launchpad service ) in their free trial account. Attendees will learn how to consume federated content from an SAP S/4HANA systems and how to add a custom developed app to the site. Finally, they will consume their site on the SAP Mobile Start app.
 
 Before getting started with the exercises, please take a look at the following [general overview of SAP Build Work Zone](intro/overview.md).
-
-> ![SAP Build Work Zone](SAP_Build_Work_Zone.png)
 
 The workshop consists of four main sections:
 1. Create your first site and add one application to it
