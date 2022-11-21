@@ -1,3 +1,6 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2022-AD280)](https://api.reuse.software/info/github.com/SAP-samples/teched2022-AD280)
+
+
 # AD280 - A Beginning to End Workshop on Configuring SAP Build Work Zone, standard edition
 
 ![Title](Title.png)
